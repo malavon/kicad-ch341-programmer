@@ -1,0 +1,14 @@
+
+export/
+output/
+
+*.core
+*.tar*
+*.zip
+
+#auto_saved_files#
+
+*.bak
+*.lck
+fp-info-cache
+fp-lib-table
