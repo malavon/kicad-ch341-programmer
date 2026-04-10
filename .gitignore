@@ -1,0 +1,13 @@
+
+switch-automotive-alternator-backups/
+export/
+
+*.bak
+*.lck
+*.core
+*.zip
+
+#auto_saved_files#
+
+fp-info-cache
+fp-lib-table
