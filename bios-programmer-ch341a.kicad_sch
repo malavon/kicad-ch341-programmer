@@ -9197,7 +9197,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector:Banana_Cliff_FCR7350R_S16N-PC_Horizontal"
 			(at 208.28 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -9559,7 +9559,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector:Banana_Cliff_FCR7350B_S16N-PC_Horizontal"
 			(at 208.28 44.45 0)
 			(hide yes)
 			(show_name no)
