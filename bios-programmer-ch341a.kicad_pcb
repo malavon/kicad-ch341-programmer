@@ -131,13 +131,13 @@
 			(outputdirectory "")
 		)
 	)
-	(footprint "Crystal:Crystal_SMD_2012-2Pin_2.0x1.2mm_HandSoldering"
+	(footprint "Crystal:Crystal_HC49-4H_Vertical"
 		(layer "F.Cu")
 		(uuid "02d37122-dd52-4f0c-accd-b5c3193cb6b0")
-		(at 66.217 76.735)
-		(descr "2012/2, Crystal, 2.0x1.2mm package, SMD, hand-soldering, http://txccrystal.com/images/pdf/9ht11.pdf")
+		(at 66.217 78.513)
+		(descr "HC-49-4H, Crystal, http://5hertz.com/pdfs/04404_D.pdf")
 		(property "Reference" "Y1"
-			(at 0 -1.8 0)
+			(at 2.44 -3.52 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "33b33e7f-b617-45c7-9468-ebbdb1e71d1a")
@@ -149,7 +149,7 @@
 			)
 		)
 		(property "Value" "Crystal"
-			(at 0 1.8 0)
+			(at 2.44 3.52 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "04aafd50-b089-459a-8bf3-ff3f945631ce")
@@ -196,21 +196,11 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd)
+		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -1.71 -0.86)
-			(end -1.71 0.86)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "19586fc8-e318-4234-a9b0-038eb7050826")
-		)
-		(fp_line
-			(start -1.71 0.86)
-			(end 1.26 0.86)
+			(start -0.76 -2.435)
+			(end 5.64 -2.435)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -219,51 +209,123 @@
 			(uuid "e8f17ade-0136-4c27-898a-27d0f006902b")
 		)
 		(fp_line
-			(start 1.26 -0.86)
-			(end -1.71 -0.86)
+			(start 5.64 2.435)
+			(end -0.76 2.435)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "80ecea02-2cd1-4037-82ee-76a2cc25c734")
+			(uuid "19586fc8-e318-4234-a9b0-038eb7050826")
 		)
-		(fp_circle
-			(center 0 0)
-			(end 0.2 0)
+		(fp_arc
+			(start -0.76 2.435)
+			(mid -3.195 0)
+			(end -0.76 -2.435)
 			(stroke
-				(width 0.1)
+				(width 0.12)
 				(type solid)
 			)
-			(fill yes)
-			(layer "F.Adhes")
-			(uuid "8f22b2a9-dace-4f0c-99b3-79cba5afda7d")
+			(layer "F.SilkS")
+			(uuid "894c132a-3803-4e22-a2db-63957365198b")
 		)
-		(fp_rect
-			(start -1.71 -1.1)
-			(end 1.71 1.1)
+		(fp_arc
+			(start 5.64 -2.435)
+			(mid 8.075 0)
+			(end 5.64 2.435)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "813a413a-0f3b-4dc3-afe5-4fa1bb92a8ef")
+		)
+		(fp_line
+			(start -0.76 -2.83)
+			(end 5.64 -2.83)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
-			(fill no)
 			(layer "F.CrtYd")
-			(uuid "b9bd18c6-4a62-4a33-95d1-06e8e0102fe9")
+			(uuid "80ecea02-2cd1-4037-82ee-76a2cc25c734")
 		)
-		(fp_poly
-			(pts
-				(xy 1 -0.6) (xy 1 0.6) (xy -0.7 0.6) (xy -1 0.3) (xy -1 -0.6)
+		(fp_line
+			(start 5.64 2.83)
+			(end -0.76 2.83)
+			(stroke
+				(width 0.05)
+				(type solid)
 			)
+			(layer "F.CrtYd")
+			(uuid "e500b0d7-5cd4-410e-8b76-741d2d19ca77")
+		)
+		(fp_arc
+			(start -0.76 2.83)
+			(mid -3.59 0)
+			(end -0.76 -2.83)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7faf5a1b-1d27-4631-8b33-dc6ecc294736")
+		)
+		(fp_arc
+			(start 5.64 -2.83)
+			(mid 8.47 0)
+			(end 5.64 2.83)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d4824acd-9589-42fb-88a9-05f920035820")
+		)
+		(fp_line
+			(start -0.76 -2.325)
+			(end 5.64 -2.325)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
-			(fill no)
 			(layer "F.Fab")
-			(uuid "a944e618-9fd1-429a-b716-3c51f8a69e4f")
+			(uuid "634df8a8-734f-4485-b281-22efbb6cb4f4")
+		)
+		(fp_line
+			(start 5.64 2.325)
+			(end -0.76 2.325)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "bfd6951c-20e8-41bd-a373-dfd7ffa1caa1")
+		)
+		(fp_arc
+			(start -0.76 2.325)
+			(mid -3.085 0)
+			(end -0.76 -2.325)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9140ef0c-5c6e-4ef2-b2ee-e0f9f6c4af83")
+		)
+		(fp_arc
+			(start 5.64 -2.325)
+			(mid 7.965 0)
+			(end 5.64 2.325)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "036167a4-4297-4c93-905e-b605bd04dbcd")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 2.44 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "ee562851-b7c5-405e-b967-c3740166a89b")
@@ -274,28 +336,30 @@
 				)
 			)
 		)
-		(pad "1" smd roundrect
-			(at -0.925 0)
-			(size 1.05 1.1)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.238095)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 1.5 1.5)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
 			(net "Net-(U2-XO)")
 			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "ef762653-f637-408f-bbcd-a5e9a3f2212d")
 		)
-		(pad "2" smd roundrect
-			(at 0.925 0)
-			(size 1.05 1.1)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.238095)
+		(pad "2" thru_hole circle
+			(at 4.88 0)
+			(size 1.5 1.5)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
 			(net "Net-(U2-XI)")
 			(pinfunction "2_2")
 			(pintype "passive")
 			(uuid "3e357fc5-6547-47ee-b9e7-a92d7db6b305")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_2012-2Pin_2.0x1.2mm.step"
+		(model "${KICAD10_3DMODEL_DIR}/Crystal.3dshapes/Crystal_HC49-4H_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
