@@ -4465,9 +4465,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "TODO:\n* overvoltage protection (above 5.x V)\n* overvoltage LED(s)? big RED; extra parts\n* anything else?"
+	(text "TODO:\n* overvoltage protection (above 5.x V) on isolation side\n* overvoltage LED(s)? big RED; extra parts\n* run the CH341a directly from 5V! requires a capacitor\n	on V3 pin of .01µF-.1µF (not 472µF ...)\n	recalculate LED resistors\n	but is VBUS stable?\n* reset switch needed for sure in my experience; \n  better than disconnecting vbus\n\nDatasheet notes:\n* connect ACT to GND through 2KΩ to disable I²C EEPROM check\n   from datasheet: use as activity LED ... \n	connect LED from VCC to ACT through 1K resistor...\n	optional, usually omitted\n		but that procludes disabling EEPROM check!\n* capacitor from VCC to RST .1µF for reliable reset\n	in case of big C on VBUS, ... OR(?) .47µF to extend reset time\n* input capacitance of 47µF + .1µF\n	really that much needed; 10µF not enough?\n	no external chip/motherboard powered"
 		(exclude_from_sim no)
-		(at 221.488 40.386 0)
+		(at 213.36 40.386 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4475,6 +4475,44 @@
 			(justify left)
 		)
 		(uuid "1c6c8c37-24d6-4184-aeca-0f2b31bf55c6")
+	)
+	(text_box "ISOLATION"
+		(exclude_from_sim no)
+		(at 186.69 33.274 90)
+		(size 5.0703 16.764)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "6b928c3f-589e-4c67-a42c-bd1889707997")
+	)
+	(text_box "ISOLATION"
+		(exclude_from_sim no)
+		(at 186.944 137.922 90)
+		(size 5.0703 16.764)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "9669ca02-95be-4071-84ab-34a73da01897")
 	)
 	(junction
 		(at 77.47 105.41)
@@ -4523,12 +4561,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "26b6a93a-a9f9-423d-9c5a-0635ea7dbd5c")
-	)
-	(junction
-		(at 38.1 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2dbc5e44-a49e-4416-8804-4755134a4ace")
 	)
 	(junction
 		(at 259.08 106.68)
@@ -4673,6 +4705,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e9e89e30-c565-470a-aa39-80cb99004292")
+	)
+	(no_connect
+		(at 48.26 83.82)
+		(uuid "15d459a6-e083-454e-8d48-d495407abb2c")
 	)
 	(no_connect
 		(at 133.35 114.3)
@@ -4889,6 +4925,16 @@
 			(type default)
 		)
 		(uuid "155da67c-b0ff-4574-8a9e-cc455716a4d4")
+	)
+	(polyline
+		(pts
+			(xy 189.23 165.862) (xy 189.23 154.686)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "157ab6c6-4929-4f35-a851-b7468a7f84e8")
 	)
 	(wire
 		(pts
@@ -5282,16 +5328,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 68.58) (xy 50.8 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43e20264-116d-402b-a312-f8ebafe2cf3c")
-	)
-	(wire
-		(pts
 			(xy 77.47 105.41) (xy 77.47 111.76)
 		)
 		(stroke
@@ -5432,7 +5468,7 @@
 	)
 	(polyline
 		(pts
-			(xy 189.23 12.446) (xy 189.23 166.624)
+			(xy 189.23 11.938) (xy 189.23 33.274)
 		)
 		(stroke
 			(width 0)
@@ -6070,6 +6106,16 @@
 		)
 		(uuid "cc77572b-1ef6-457f-8004-8d84cbc50260")
 	)
+	(polyline
+		(pts
+			(xy 189.23 50.038) (xy 189.23 137.922)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "ccb1f3b0-ed39-411b-b86f-7d61f2c7dd72")
+	)
 	(wire
 		(pts
 			(xy 67.31 57.15) (xy 77.47 57.15)
@@ -6169,16 +6215,6 @@
 			(type default)
 		)
 		(uuid "da4a285e-13bd-4c02-9610-495b5c884445")
-	)
-	(wire
-		(pts
-			(xy 35.56 93.98) (xy 38.1 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dac3477f-3355-48d5-b3a6-c493a5cd7374")
 	)
 	(wire
 		(pts
@@ -6751,7 +6787,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_2012-2Pin_2.0x1.2mm_HandSoldering"
+		(property "Footprint" "Crystal:Crystal_HC49-4H_Vertical"
 			(at 71.12 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -7416,85 +7452,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 35.56 93.98 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "273771ba-d654-4497-a380-1d2689292cb4")
-		(property "Reference" "#FLG04"
-			(at 33.655 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 30.48 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 35.56 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9c66d878-5e1c-4548-9c5e-531b7cbcc21c")
-		)
-		(instances
-			(project "bios-programmer-ch341a"
-				(path "/a99a5965-7ad8-4ba1-a50b-0a8ec2909645"
-					(reference "#FLG04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 176.53 125.73 0)
 		(unit 1)
@@ -7736,85 +7693,6 @@
 			(project "bios-programmer-ch341a"
 				(path "/a99a5965-7ad8-4ba1-a50b-0a8ec2909645"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 48.26 68.58 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "339b015c-3898-47ad-811d-6378e50db49a")
-		(property "Reference" "#FLG02"
-			(at 46.355 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 43.18 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 48.26 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 48.26 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "65fe3784-1f19-4a6c-935c-1ba2a974c637")
-		)
-		(instances
-			(project "bios-programmer-ch341a"
-				(path "/a99a5965-7ad8-4ba1-a50b-0a8ec2909645"
-					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -9070,7 +8948,7 @@
 			)
 		)
 		(property "Value" "104µF"
-			(at 66.802 48.006 0)
+			(at 67.31 48.006 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9979,7 +9857,7 @@
 			)
 		)
 		(property "Value" "104µF"
-			(at 87.122 48.006 0)
+			(at 87.63 48.006 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
