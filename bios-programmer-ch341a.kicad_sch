@@ -8049,7 +8049,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "ADUM1252"
+		(property "Value" "ADuM1252"
 			(at 189.23 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
