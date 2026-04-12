@@ -8796,7 +8796,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_Micro-B_GCT_USB3076-30-A"
+		(property "Footprint" "footprints:USB_Micro-B_Amphenol_10118194-0001LF_Horizontal"
 			(at 64.77 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -8819,6 +8819,28 @@
 			)
 		)
 		(property "Description" "USB Micro Type B connector"
+			(at 60.96 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr" "Amphenol"
+			(at 60.96 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "10118194(-0011LF)"
 			(at 60.96 50.8 0)
 			(hide yes)
 			(show_name no)
