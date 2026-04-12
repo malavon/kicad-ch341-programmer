@@ -16,7 +16,7 @@
         "copper_text_thickness": 0.3,
         "copper_text_upright": false,
         "courtyard_line_width": 0.05,
-        "dimension_precision": 4,
+        "dimension_precision": 0,
         "dimension_units": 3,
         "dimensions": {
           "arrow_length": 1270000,
@@ -48,7 +48,7 @@
         "silk_text_size_h": 1.0,
         "silk_text_size_v": 1.0,
         "silk_text_thickness": 0.1,
-        "silk_text_upright": false,
+        "silk_text_upright": true,
         "zones": {
           "min_clearance": 0.0
         }
@@ -194,8 +194,7 @@
         }
       ],
       "track_widths": [
-        0.0,
-        0.254
+        0.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -714,7 +713,7 @@
         "uuid": "a99a5965-7ad8-4ba1-a50b-0a8ec2909645"
       }
     ],
-    "used_designators": "",
+    "used_designators": "C11",
     "variants": []
   },
   "sheets": [
