@@ -4786,7 +4786,7 @@
 		)
 		(uuid "17447206-bef7-4ca8-a685-fa3f6dbc06da")
 	)
-	(text "TODO:\n* overvoltage protection (above 5.x V) on isolation side\n* overvoltage LED(s)? big RED; extra parts\n* some output capacitance as well? 10µF?\n\nOVERVOLTAGE IDEA?\n* zener diode 5.6V\n* switches off a P-mosfet on the banana rail\n* but what about a LED\n	* cannot just put a LED in series, right?\n		* calculate!! Vfz=0.9V, Vfled=2.0V\n		* it's fine, isn't it?? \n		  combined forward voltage well below the 5.6V\n	* can the MOSFET still switch when 3.6V is applied?\n		* gate voltage needs to be higher than what is switched?"
+	(text "TODO:\n* overvoltage protection (above 5.x V) on isolation side\n* overvoltage LED(s)? big RED; extra parts\n* some output capacitance as well? 10µF?\n* fuse/resettable fuse on VBUS; 100mA or something?\n\nOVERVOLTAGE IDEA?\n* zener diode 5.6V\n* switches off a P-mosfet on the banana rail\n* but what about a LED\n	* cannot just put a LED in series, right?\n		* calculate!! Vfz=0.9V, Vfled=2.0V\n		* it's fine, isn't it?? \n		  combined forward voltage well below the 5.6V\n	* can the MOSFET still switch when 3.6V is applied?\n		* gate voltage needs to be higher than what is switched?"
 		(exclude_from_sim no)
 		(at 213.36 40.386 0)
 		(effects
