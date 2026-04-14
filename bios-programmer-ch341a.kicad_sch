@@ -792,7 +792,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_02x04_Counter_Clockwise"
+		(symbol "Connector_Generic:Conn_02x04_Odd_Even"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -812,7 +812,7 @@
 					)
 				)
 			)
-			(property "Value" "Conn_02x04_Counter_Clockwise"
+			(property "Value" "Conn_02x04_Odd_Even"
 				(at 1.27 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -844,7 +844,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, double row, 02x04, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -877,7 +877,7 @@
 					)
 				)
 			)
-			(symbol "Conn_02x04_Counter_Clockwise_1_1"
+			(symbol "Conn_02x04_Odd_Even_1_1"
 				(rectangle
 					(start -1.27 3.81)
 					(end 3.81 -6.35)
@@ -996,7 +996,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at 7.62 2.54 180)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -1014,7 +1014,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -1032,7 +1032,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
+					(at 7.62 0 180)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -1050,7 +1050,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -5.08 180)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_5"
 						(effects
@@ -1086,7 +1086,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 0 180)
+					(at -5.08 -5.08 0)
 					(length 3.81)
 					(name "Pin_7"
 						(effects
@@ -1104,7 +1104,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 2.54 180)
+					(at 7.62 -5.08 180)
 					(length 3.81)
 					(name "Pin_8"
 						(effects
@@ -3841,14 +3841,14 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Memory_EEPROM:24C02Cx-x-SN"
+		(symbol "Memory_EEPROM:24LC08"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at -7.62 6.35 0)
+				(at -6.35 6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -3857,8 +3857,8 @@
 					)
 				)
 			)
-			(property "Value" "24C02Cx-x-SN"
-				(at 2.54 -6.35 0)
+			(property "Value" "24LC08"
+				(at 1.27 6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -3868,7 +3868,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3879,7 +3879,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/MPD/ProductDocuments/DataSheets/2-Kbit-5.0V-I2C-Serial-EEPROM-Data-Sheet-DS20001202.pdf"
+			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21710J.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3890,7 +3890,7 @@
 					)
 				)
 			)
-			(property "Description" "2-Kbit (256 x 8-bit) I2C Serial EEPROM, chip address inputs (A0, A1, A2), write-protect pin (WP), 4.5..5.5V supply, SOIC-8"
+			(property "Description" "I2C Serial EEPROM, 8Kb, DIP-8/SOIC-8/TSSOP-8/DFN-8"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3901,7 +3901,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "2-wire CMOS nonvolatile-memory electrically-erasable-PROM 24C02C/SN 24C02C-E/SN 24C02C-I/SN  24C02CT-I/SN 24C02CT-E/SN"
+			(property "ki_keywords" "I2C Serial EEPROM"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3912,7 +3912,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "*SO*3.9x4.9mm*P1.27mm*"
+			(property "ki_fp_filters" "DIP*W7.62mm* SOIC*3.9x4.9mm* TSSOP*4.4x3mm*P0.65mm* DFN*3x2mm*P0.5mm*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3923,7 +3923,7 @@
 					)
 				)
 			)
-			(symbol "24C02Cx-x-SN_1_1"
+			(symbol "24LC08_1_1"
 				(rectangle
 					(start -7.62 5.08)
 					(end 7.62 -5.08)
@@ -8780,106 +8780,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Memory_EEPROM:24C02Cx-x-SN")
-		(at 279.4 77.47 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2a2bca5e-254c-47be-b3fe-b2f5e8a730b2")
-		(property "Reference" "U4"
-			(at 281.675 67.31 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "24C02Cx-x-SN"
-			(at 281.675 69.85 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 279.4 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/MPD/ProductDocuments/DataSheets/2-Kbit-5.0V-I2C-Serial-EEPROM-Data-Sheet-DS20001202.pdf"
-			(at 279.4 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "2-Kbit (256 x 8-bit) I2C Serial EEPROM, chip address inputs (A0, A1, A2), write-protect pin (WP), 4.5..5.5V supply, SOIC-8"
-			(at 279.4 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f9ac6b5a-39fc-420a-b744-06e4d7463d74")
-		)
-		(pin "2"
-			(uuid "d8e9ff50-bef8-4347-a9a4-ca7403790105")
-		)
-		(pin "3"
-			(uuid "a4bdee0f-e24a-4677-9ed9-d3292231e6e2")
-		)
-		(pin "4"
-			(uuid "e98031f8-0252-4292-bb18-7910a2547726")
-		)
-		(pin "5"
-			(uuid "3b8028f7-90c3-4f9a-b30f-65e686c575e4")
-		)
-		(pin "8"
-			(uuid "5897e16c-fcf2-47ae-abe1-b1e07c8cb0d0")
-		)
-		(pin "6"
-			(uuid "ba57b29a-5cc9-4f09-93ce-4a7680962be8")
-		)
-		(pin "7"
-			(uuid "97cf6e2a-6d47-44cc-b019-60402ea90fbd")
-		)
-		(instances
-			(project "bios-programmer-ch341a"
-				(path "/a99a5965-7ad8-4ba1-a50b-0a8ec2909645"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 91.44 96.52 270)
 		(unit 1)
@@ -9319,7 +9219,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x04_Counter_Clockwise")
+		(lib_id "Connector_Generic:Conn_02x04_Odd_Even")
 		(at 245.11 115.57 0)
 		(unit 1)
 		(body_style 1)
@@ -9373,7 +9273,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x04, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 245.11 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -9730,7 +9630,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x04_Counter_Clockwise")
+		(lib_id "Connector_Generic:Conn_02x04_Odd_Even")
 		(at 245.11 139.7 0)
 		(unit 1)
 		(body_style 1)
@@ -9784,7 +9684,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x04, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 245.11 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -12093,6 +11993,106 @@
 			(project "bios-programmer-ch341a"
 				(path "/a99a5965-7ad8-4ba1-a50b-0a8ec2909645"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Memory_EEPROM:24LC08")
+		(at 275.59 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5e4d193-ee7d-43c9-a151-6dece105b387")
+		(property "Reference" "U4"
+			(at 277.865 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "24LC08"
+			(at 277.865 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 275.59 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21710J.pdf"
+			(at 275.59 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "I2C Serial EEPROM, 8Kb, DIP-8/SOIC-8/TSSOP-8/DFN-8"
+			(at 275.59 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a608f6f2-dd00-402b-8bce-e4b3774c6d96")
+		)
+		(pin "1"
+			(uuid "1a09a627-f943-4203-8a8f-5beb93004bb4")
+		)
+		(pin "8"
+			(uuid "d094f5df-2fd4-405b-a6fe-a91dfd149fc4")
+		)
+		(pin "3"
+			(uuid "e5825c79-a10b-4bfd-aa0d-e4918f596184")
+		)
+		(pin "4"
+			(uuid "6399dd18-e9b4-4d3d-b091-c89f47e28416")
+		)
+		(pin "5"
+			(uuid "ab7c7b56-cbab-4f1a-a48d-48c838a01da0")
+		)
+		(pin "6"
+			(uuid "762f5d7f-85dd-4a59-be58-66ec525357e1")
+		)
+		(pin "7"
+			(uuid "50fce151-7748-445d-b558-6af434cbbc3c")
+		)
+		(instances
+			(project "bios-programmer-ch341a"
+				(path "/a99a5965-7ad8-4ba1-a50b-0a8ec2909645"
+					(reference "U4")
 					(unit 1)
 				)
 			)
