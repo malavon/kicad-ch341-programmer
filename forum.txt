@@ -1,0 +1,24 @@
+Hi,
+
+for quite a few reasons I need to reprogram a few bios chips on motherboards. Initially I have been trying with the typical cheap CH341-based programmers, with varying success. Think clipping a clip on a SOIC-8 somewhere on a PC motherboard.
+After looking into better solutions I noticed that all of the available programmers supply power to the chip they're programming without much supervision. On top of that different chips have different voltage requirements (1.8V, 3.0V, 3.3V, 5.0V) which are also only sometimes supported, at of course varying current outputs etc.
+More advanced programmers all focus on being able to program pretty much any chip ever to have existed, but not a single one - that I found - is able to reliably control the voltage and current going into a motherboard when using the clip method.
+
+Thus I started thinking about building my own simple programmer, which isolates/translates the programming signals and powers the chip-in-programming from an external linear lab power supply. I'm 100% certain this would provide the best level of control and monitoring of both voltage and current without really reinventing the wheel.
+It still uses the CH341 so I can keep using the same software. It uses a linear power supply (GPP-2323) which provides reliable power and monitoring. No need to complicate things too much.
+
+At this point I have a first version of the schematics and PCB and was hoping someone could take a look at it, critique it and identify problems that I lack the experience for to see. 
+
+Schematics/PCBs in the images below, you can also find the project on my Github: [url]https://github.com/malavon/kicad-ch341-programmer[/url]
+
+On top of the current design I would like to add a few other features and was hoping to get some help with them:
+* overvoltage protection for the board itself (the motherboard is harder unless I add a voltage select switch) + LED indicator
+* reverse current protection
+
+Currently I have a first idea for the overvoltage protection in the top right of the schematics, but I have no idea whether I'm approaching this correctly. Essentially what I want is to be able to cut the power supply (maybe GND as well) and light one or two LEDs when it happens.
+
+Feel free to ask me any questions about why I made certain decisions. You might also find an answer in the commit message if you don't mind going over there.
+
+Git: malavon/kicad-ch341-programmer
+TODO-licensed, free for personal use
+© 2026 XYZ
