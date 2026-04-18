@@ -7683,6 +7683,19 @@
 		(layer "Edge.Cuts")
 		(uuid "3faa247e-a6f3-4ad5-bad6-353de0192ac2")
 	)
+	(gr_text "Git: malavon/kicad-ch341-programmer\nTODO-licensed, free for personal use\n© 2026 XYZ"
+		(at 59.8 57.31 0)
+		(layer "B.SilkS")
+		(uuid "05e9f013-7442-4878-97d7-bad620e54882")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify mirror)
+		)
+	)
 	(table
 		(column_count 2)
 		(uuid "878972cf-1215-4638-b55e-15dd998ea301")
