@@ -12,3 +12,7 @@ output/
 *.lck
 fp-info-cache
 fp-lib-table
+
+sim/*.dat.ngspice
+sim/*.dat.xyce
+
