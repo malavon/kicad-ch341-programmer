@@ -802,7 +802,7 @@
         "version": 0
       },
       "model_mode": 4,
-      "workbook_filename": ""
+      "workbook_filename": "bios-programmer-ch341a.wbk"
     },
     "page_layout_descr_file": "",
     "plot_directory": "",
@@ -823,7 +823,7 @@
         "uuid": "a99a5965-7ad8-4ba1-a50b-0a8ec2909645"
       }
     ],
-    "used_designators": "D4-5,Q1,U4-5,R5,C11",
+    "used_designators": "R5-8,V1,U4-5,Q1-2,D4-5,C11",
     "variants": []
   },
   "sheets": [
