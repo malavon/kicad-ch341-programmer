@@ -5620,16 +5620,6 @@
 		)
 		(uuid "b19deae8-37df-45c9-bfdf-9c6818ac5ce0")
 	)
-	(text "P500Ω"
-		(exclude_from_sim no)
-		(at 236.22 54.102 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "dd7bcb76-3b1f-483d-9a68-e557b3e905f1")
-	)
 	(text_box "ISOLATION"
 		(exclude_from_sim no)
 		(at 158.75 43.688 90)
@@ -5819,12 +5809,6 @@
 		(uuid "672564fc-fc21-409a-91ed-de1a6f81614d")
 	)
 	(junction
-		(at 236.22 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6ab35a93-5b5d-49cd-b472-9b9e9cae607a")
-	)
-	(junction
 		(at 118.11 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5945,16 +5929,16 @@
 		(uuid "c07ff206-79e0-4ef1-a778-1f1ceb1f667e")
 	)
 	(junction
-		(at 236.22 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c4a4bdaf-4685-49bc-9b4f-9a3df9eab004")
-	)
-	(junction
 		(at 215.9 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca1239de-a90b-45f3-8876-ce726bd65ed0")
+	)
+	(junction
+		(at 236.22 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4c50cd0-d43c-4c8b-af90-c1ca2a2cd68d")
 	)
 	(junction
 		(at 234.95 157.48)
@@ -5979,12 +5963,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e666bad0-acee-4593-851f-cb0bb70a25c7")
-	)
-	(junction
-		(at 236.22 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "edaa78a2-5ed2-4f8a-8f5b-27039906b66e")
 	)
 	(junction
 		(at 53.34 60.96)
@@ -6278,6 +6256,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 36.83) (xy 209.55 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cc72db1-d0ad-405d-9d52-8ef7ce97fc17")
+	)
+	(wire
+		(pts
 			(xy 220.98 72.39) (xy 234.95 72.39)
 		)
 		(stroke
@@ -6358,7 +6346,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 21.59) (xy 209.55 39.37)
+			(xy 209.55 21.59) (xy 209.55 29.21)
 		)
 		(stroke
 			(width 0)
@@ -6378,7 +6366,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 52.07) (xy 223.52 55.88)
+			(xy 223.52 52.07) (xy 223.52 54.61)
 		)
 		(stroke
 			(width 0)
@@ -6668,16 +6656,6 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 52.07) (xy 246.38 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "305c4d46-56aa-430c-959b-17e4f07249ae")
-	)
-	(wire
-		(pts
 			(xy 87.63 149.86) (xy 87.63 154.94)
 		)
 		(stroke
@@ -6725,16 +6703,6 @@
 			(type default)
 		)
 		(uuid "36a319cd-0a74-4180-b893-bdbdea55b0c8")
-	)
-	(wire
-		(pts
-			(xy 248.92 55.88) (xy 248.92 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "371a6aa9-5c1f-4a4b-8e34-f0bd7895f3c3")
 	)
 	(wire
 		(pts
@@ -7868,16 +7836,6 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 52.07) (xy 238.76 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3787978-b7fb-4970-9825-ed5899a31d90")
-	)
-	(wire
-		(pts
 			(xy 166.37 82.55) (xy 166.37 83.82)
 		)
 		(stroke
@@ -8208,16 +8166,6 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 55.88) (xy 248.92 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8a2e96f-6f42-4aad-9b14-b76a74c49aaf")
-	)
-	(wire
-		(pts
 			(xy 220.98 100.33) (xy 234.95 100.33)
 		)
 		(stroke
@@ -8348,7 +8296,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 55.88) (xy 236.22 55.88)
+			(xy 223.52 54.61) (xy 236.22 54.61)
 		)
 		(stroke
 			(width 0)
@@ -8378,7 +8326,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 55.88) (xy 236.22 58.42)
+			(xy 236.22 54.61) (xy 236.22 58.42)
 		)
 		(stroke
 			(width 0)
@@ -9277,12 +9225,12 @@
 		(uuid "e469160b-e888-4567-b814-713c1cca03d8")
 	)
 	(label "OVPLED"
-		(at 238.76 58.42 180)
+		(at 232.41 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "e485ba14-bc0a-4543-9aeb-a4cb693227b9")
 	)
@@ -11126,7 +11074,7 @@
 		(dnp no)
 		(uuid "421b1bf0-ce17-47ec-b8a8-2b5d792289ab")
 		(property "Reference" "D5"
-			(at 244.094 62.992 0)
+			(at 239.776 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11136,7 +11084,7 @@
 			)
 		)
 		(property "Value" "OV2"
-			(at 244.094 60.452 0)
+			(at 245.872 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11216,7 +11164,7 @@
 		(dnp no)
 		(uuid "42684250-3453-4c19-b0cd-f3c686aab39b")
 		(property "Reference" "Q1"
-			(at 200.66 13.97 90)
+			(at 202.184 26.67 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11226,7 +11174,7 @@
 			)
 		)
 		(property "Value" "IRLML6402"
-			(at 200.66 16.51 90)
+			(at 200.66 18.288 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11379,7 +11327,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "46f23251-f988-4d9a-ac3f-33946fb33234")
-		(property "Reference" "R8"
+		(property "Reference" "R9"
 			(at 207.518 55.88 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11441,7 +11389,7 @@
 		(instances
 			(project "bios-programmer-ch341a"
 				(path "/a99a5965-7ad8-4ba1-a50b-0a8ec2909645"
-					(reference "R8")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -11538,7 +11486,7 @@
 		(dnp no)
 		(uuid "50d52e50-94de-493e-a79b-619b4584d428")
 		(property "Reference" "Q4"
-			(at 252.73 13.97 90)
+			(at 254.254 26.67 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11548,7 +11496,7 @@
 			)
 		)
 		(property "Value" "IRLML6402"
-			(at 252.73 16.51 90)
+			(at 252.73 18.542 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11791,6 +11739,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 209.55 33.02 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "531aaec0-91f7-4af8-a8ac-54c8c92bfc2a")
+		(property "Reference" "R7"
+			(at 207.518 33.02 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1kΩ"
+			(at 209.55 33.02 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 211.328 33.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 209.55 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "52a345bd-c02f-416d-9594-44fc30801c44")
+		)
+		(pin "1"
+			(uuid "038a9c75-d6bb-433e-9b2a-4e24c7eae897")
+		)
+		(instances
+			(project "bios-programmer-ch341a"
+				(path "/a99a5965-7ad8-4ba1-a50b-0a8ec2909645"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDD")
 		(at 234.95 102.87 0)
 		(unit 1)
@@ -11878,7 +11905,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "58c6757a-0fff-4d5e-becc-7529f9e51755")
-		(property "Reference" "R11"
+		(property "Reference" "R12"
 			(at 226.568 39.37 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11940,7 +11967,7 @@
 		(instances
 			(project "bios-programmer-ch341a"
 				(path "/a99a5965-7ad8-4ba1-a50b-0a8ec2909645"
-					(reference "R11")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -12036,7 +12063,7 @@
 		(dnp no)
 		(uuid "60277af8-b199-4764-9cf1-51caa4cdda09")
 		(property "Reference" "D4"
-			(at 228.219 62.992 0)
+			(at 232.664 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12046,7 +12073,7 @@
 			)
 		)
 		(property "Value" "OV1"
-			(at 228.219 60.452 0)
+			(at 226.568 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12504,85 +12531,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 242.57 52.07 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6dce83e1-cfee-4601-9d41-9fc0d0603e0a")
-		(property "Reference" "R13"
-			(at 242.57 55.372 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1kΩ"
-			(at 242.57 52.07 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 242.57 50.292 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 242.57 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 242.57 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "7db3d755-c97f-46ab-8077-9b8681063683")
-		)
-		(pin "1"
-			(uuid "b554ae36-27cc-4609-a52f-519462601ff8")
-		)
-		(instances
-			(project "bios-programmer-ch341a"
-				(path "/a99a5965-7ad8-4ba1-a50b-0a8ec2909645"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Reference_Voltage:TL431DBZ")
 		(at 215.9 49.53 90)
 		(unit 1)
@@ -12592,10 +12540,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7384a06a-f407-4422-873c-23267eda1bc9")
 		(property "Reference" "U4"
-			(at 218.44 48.2599 90)
+			(at 213.36 51.562 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12606,7 +12553,7 @@
 			)
 		)
 		(property "Value" "TL431DBZ"
-			(at 218.44 50.7999 90)
+			(at 217.678 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13039,7 +12986,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "86943d8d-9f7c-43b4-83a8-889c0f2123aa")
-		(property "Reference" "R7"
+		(property "Reference" "R8"
 			(at 207.518 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13049,7 +12996,7 @@
 				)
 			)
 		)
-		(property "Value" "5k6Ω"
+		(property "Value" "4k7Ω"
 			(at 209.55 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13101,7 +13048,7 @@
 		(instances
 			(project "bios-programmer-ch341a"
 				(path "/a99a5965-7ad8-4ba1-a50b-0a8ec2909645"
-					(reference "R7")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -13195,7 +13142,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8df9f33d-e410-42dd-808b-6ba41c1ab7d8")
-		(property "Reference" "R9"
+		(property "Reference" "R10"
 			(at 213.868 27.94 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13257,7 +13204,7 @@
 		(instances
 			(project "bios-programmer-ch341a"
 				(path "/a99a5965-7ad8-4ba1-a50b-0a8ec2909645"
-					(reference "R9")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -13276,7 +13223,7 @@
 		(dnp no)
 		(uuid "98b5a292-4b82-4cc5-a2d9-e97f6e5fd224")
 		(property "Reference" "Q3"
-			(at 251.46 34.29 90)
+			(at 240.03 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13286,7 +13233,7 @@
 			)
 		)
 		(property "Value" "IRLML6402"
-			(at 248.92 34.29 90)
+			(at 248.158 34.29 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13597,8 +13544,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aa4405c4-f65e-45af-bf76-9f787b5d1fdd")
-		(property "Reference" "R12"
-			(at 229.87 55.372 90)
+		(property "Reference" "R13"
+			(at 229.87 49.784 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13607,7 +13554,7 @@
 				)
 			)
 		)
-		(property "Value" "1kΩ"
+		(property "Value" "220Ω"
 			(at 229.87 52.07 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13659,7 +13606,7 @@
 		(instances
 			(project "bios-programmer-ch341a"
 				(path "/a99a5965-7ad8-4ba1-a50b-0a8ec2909645"
-					(reference "R12")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -14115,7 +14062,7 @@
 				)
 			)
 		)
-		(property "Value" "5k6Ω"
+		(property "Value" "4k7Ω"
 			(at 200.66 35.56 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14812,7 +14759,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cf6fb962-0bdf-493b-b503-8858281c299c")
-		(property "Reference" "R10"
+		(property "Reference" "R11"
 			(at 213.868 40.64 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14874,7 +14821,7 @@
 		(instances
 			(project "bios-programmer-ch341a"
 				(path "/a99a5965-7ad8-4ba1-a50b-0a8ec2909645"
-					(reference "R10")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -14893,7 +14840,7 @@
 		(dnp no)
 		(uuid "d00e4674-ab64-4dbc-885b-f488f2c4d3e9")
 		(property "Reference" "Q2"
-			(at 242.57 44.45 90)
+			(at 231.14 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14903,7 +14850,7 @@
 			)
 		)
 		(property "Value" "IRLML6402"
-			(at 240.03 44.45 90)
+			(at 239.268 44.45 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
