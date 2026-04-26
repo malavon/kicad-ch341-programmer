@@ -4146,7 +4146,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Reference_Voltage:TL431DBZ"
+		(symbol "Reference_Voltage:TL432DBZ"
 			(pin_numbers
 				(hide yes)
 			)
@@ -4168,7 +4168,7 @@
 					)
 				)
 			)
-			(property "Value" "TL431DBZ"
+			(property "Value" "TL432DBZ"
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4179,7 +4179,7 @@
 				)
 			)
 			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 0 -4.826 0)
+				(at 0 -4.318 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -4191,7 +4191,7 @@
 				)
 			)
 			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl431.pdf"
-				(at 1.778 -9.144 0)
+				(at 0.762 -6.096 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -4203,7 +4203,7 @@
 				)
 			)
 			(property "Description" "Shunt Regulator, SOT-23"
-				(at 0 -7.112 0)
+				(at 0 -7.874 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -4235,7 +4235,7 @@
 					)
 				)
 			)
-			(symbol "TL431DBZ_0_1"
+			(symbol "TL432DBZ_0_1"
 				(polyline
 					(pts
 						(xy -1.27 0) (xy 0 0) (xy 1.27 0)
@@ -4273,11 +4273,11 @@
 					)
 				)
 			)
-			(symbol "TL431DBZ_1_1"
+			(symbol "TL432DBZ_1_1"
 				(pin passive line
-					(at 2.54 0 180)
+					(at 0 2.54 270)
 					(length 2.54)
-					(name "K"
+					(name "REF"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4293,9 +4293,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 2.54 270)
-					(length 2.54)
-					(name "REF"
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4312,7 +4312,7 @@
 				)
 				(pin passive line
 					(at -2.54 0 0)
-					(length 2.54)
+					(length 1.27)
 					(name "A"
 						(effects
 							(font
@@ -5589,7 +5589,7 @@
 		)
 		(uuid "17447206-bef7-4ca8-a685-fa3f6dbc06da")
 	)
-	(text "TODO: TL431/TL432 different package; \n1. find cheapeast\n2. different pinout options, find easiest to layout"
+	(text "TODO: TL431/TL432 different package; \n1. find cheapeast\n2. different pinout options, find easiest to layout\n2.5Vfor IRLML6402 ... explains ringing in sim? -> 1.5V or lower ...\n& also defunct"
 		(exclude_from_sim no)
 		(at 202.946 12.192 0)
 		(effects
@@ -12491,7 +12491,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Reference_Voltage:TL431DBZ")
+		(lib_id "Reference_Voltage:TL432DBZ")
 		(at 215.9 49.53 90)
 		(unit 1)
 		(body_style 1)
@@ -12524,7 +12524,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 220.726 49.53 0)
+			(at 220.218 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12536,7 +12536,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl431.pdf"
-			(at 225.044 47.752 0)
+			(at 221.996 48.768 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12548,7 +12548,7 @@
 			)
 		)
 		(property "Description" "Shunt Regulator, SOT-23"
-			(at 223.012 49.53 0)
+			(at 223.774 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
