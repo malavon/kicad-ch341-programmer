@@ -514,7 +514,7 @@
         "clearance": 0.1,
         "name": "NC",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1,
         "tuning_profile": ""
@@ -527,12 +527,21 @@
         "microvia_drill": 0.1,
         "name": "PWR",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.4,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3
+      },
+      {
+        "clearance": 0.2,
+        "name": "Wide 600nm",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.6,
+        "tuning_profile": ""
       }
     ],
     "meta": {
@@ -552,6 +561,10 @@
       {
         "netclass": "NC",
         "pattern": "unconnected-*"
+      },
+      {
+        "netclass": "Wide 600nm",
+        "pattern": "VG_MAIN"
       }
     ]
   },
@@ -823,7 +836,7 @@
         "uuid": "a99a5965-7ad8-4ba1-a50b-0a8ec2909645"
       }
     ],
-    "used_designators": "Y1,U1-4,SW1,J1-8,Q1-4,D1-6,C1-10,#PWR1-23,#FLG1-2,R1-15,H1-2",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
