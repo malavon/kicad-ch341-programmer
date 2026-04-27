@@ -1,0 +1,3 @@
+Git: malavon/kicad-ch341-programmer
+Free for personal use
+© 2026 XYZ
