@@ -5589,17 +5589,6 @@
 		)
 		(uuid "17447206-bef7-4ca8-a685-fa3f6dbc06da")
 	)
-	(text "TODO: TL431/TL432 different package; \n1. find cheapeast\n2. different pinout options, find easiest to layout\n2.5Vfor IRLML6402 ... explains ringing in sim? -> 1.5V or lower ...\n& also defunct"
-		(exclude_from_sim no)
-		(at 202.946 12.192 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1c6c8c37-24d6-4184-aeca-0f2b31bf55c6")
-	)
 	(text "IDC connectors"
 		(exclude_from_sim no)
 		(at 251.206 115.57 0)
@@ -9515,7 +9504,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1045a9c6-0111-4579-bb9a-be81a7e08491")
-		(property "Reference" "R13"
+		(property "Reference" "R14"
 			(at 250.698 49.53 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9577,7 +9566,7 @@
 		(instances
 			(project "bios-programmer-ch341a"
 				(path "/a99a5965-7ad8-4ba1-a50b-0a8ec2909645"
-					(reference "R13")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -10678,6 +10667,114 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:IRLML6402")
+		(at 200.66 24.13 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "33b84d47-fce6-4137-b51d-fe92be1df324")
+		(property "Reference" "Q1"
+			(at 199.136 26.67 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SSM3J328R"
+			(at 200.66 18.542 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 202.565 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "TODO"
+			(at 204.47 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "P-Channel Power MOSFET, SOT-23"
+			(at 200.66 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr" "Toshiba"
+			(at 200.66 24.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "SSM3J328R"
+			(at 200.66 24.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "19ac2bd4-0ffc-4985-a63b-996a0cf7e486")
+		)
+		(pin "1"
+			(uuid "8a67348e-7f7b-4907-bf1f-b7663756b8e5")
+		)
+		(pin "3"
+			(uuid "2af4c637-b3da-4253-8796-5c69dbd5e48a")
+		)
+		(instances
+			(project "bios-programmer-ch341a"
+				(path "/a99a5965-7ad8-4ba1-a50b-0a8ec2909645"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 127 67.31 90)
 		(unit 1)
@@ -11023,6 +11120,115 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:IRLML6402")
+		(at 233.68 43.18 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3eec7f56-00fc-4d23-89bf-3599d4b41b26")
+		(property "Reference" "Q2"
+			(at 231.14 44.704 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SSM3J328R"
+			(at 239.268 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 238.76 41.275 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "TODO"
+			(at 238.76 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "P-Channel Power MOSFET, SOT-23"
+			(at 233.68 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr" "Toshiba"
+			(at 233.68 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "SSM3J328R"
+			(at 233.68 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "afc85c9d-b329-4988-8d59-d3e7ad2ba4b1")
+		)
+		(pin "1"
+			(uuid "3675aeb4-e75a-4557-afe0-029db405c8cf")
+		)
+		(pin "3"
+			(uuid "6c9ba29c-a8fc-4ef0-8255-b94d0e59ba7c")
+		)
+		(instances
+			(project "bios-programmer-ch341a"
+				(path "/a99a5965-7ad8-4ba1-a50b-0a8ec2909645"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 242.57 58.42 180)
 		(unit 1)
@@ -11107,91 +11313,6 @@
 			(project "bios-programmer-ch341a"
 				(path "/a99a5965-7ad8-4ba1-a50b-0a8ec2909645"
 					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:IRLML6402")
-		(at 200.66 24.13 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "42684250-3453-4c19-b0cd-f3c686aab39b")
-		(property "Reference" "Q1"
-			(at 202.184 26.67 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "IRLML6402"
-			(at 200.66 18.288 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 202.565 19.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c"
-			(at 204.47 19.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "-3.7A Id, -20V Vds, 65mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23"
-			(at 200.66 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a8ef8f46-3014-4e98-b36e-b4a5629d1760")
-		)
-		(pin "1"
-			(uuid "0dcfdd75-0038-437f-a6d6-70caf1d18285")
-		)
-		(pin "3"
-			(uuid "97078cec-19b2-476b-a545-f6c343315eee")
-		)
-		(instances
-			(project "bios-programmer-ch341a"
-				(path "/a99a5965-7ad8-4ba1-a50b-0a8ec2909645"
-					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -11287,7 +11408,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "46f23251-f988-4d9a-ac3f-33946fb33234")
-		(property "Reference" "R10"
+		(property "Reference" "R9"
 			(at 207.518 55.88 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11349,7 +11470,7 @@
 		(instances
 			(project "bios-programmer-ch341a"
 				(path "/a99a5965-7ad8-4ba1-a50b-0a8ec2909645"
-					(reference "R10")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -11455,8 +11576,9 @@
 				)
 			)
 		)
-		(property "Value" "IRLML6402"
+		(property "Value" "SSM3J328R"
 			(at 252.73 18.542 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11478,7 +11600,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c"
+		(property "Datasheet" "TODO"
 			(at 248.92 19.05 0)
 			(hide yes)
 			(show_name no)
@@ -11490,8 +11612,30 @@
 				(justify left)
 			)
 		)
-		(property "Description" "-3.7A Id, -20V Vds, 65mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23"
+		(property "Description" "P-Channel Power MOSFET, SOT-23"
 			(at 252.73 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr" "Toshiba"
+			(at 252.73 24.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "SSM3J328R"
+			(at 252.73 24.13 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11709,7 +11853,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "531aaec0-91f7-4af8-a8ac-54c8c92bfc2a")
-		(property "Reference" "R6"
+		(property "Reference" "R7"
 			(at 207.518 33.02 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11771,7 +11915,7 @@
 		(instances
 			(project "bios-programmer-ch341a"
 				(path "/a99a5965-7ad8-4ba1-a50b-0a8ec2909645"
-					(reference "R6")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -12252,6 +12396,115 @@
 			(project "bios-programmer-ch341a"
 				(path "/a99a5965-7ad8-4ba1-a50b-0a8ec2909645"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRLML6402")
+		(at 242.57 34.29 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "61a3a9bf-c957-4069-88c9-b62c7fbe59e7")
+		(property "Reference" "Q3"
+			(at 240.03 35.814 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SSM3J328R"
+			(at 248.158 34.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 247.65 32.385 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "TODO"
+			(at 247.65 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "P-Channel Power MOSFET, SOT-23"
+			(at 242.57 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr" "Toshiba"
+			(at 242.57 34.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "SSM3J328R"
+			(at 242.57 34.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d159750d-ef91-46c8-ab4f-0a6960387837")
+		)
+		(pin "1"
+			(uuid "ba7fbd42-7672-4698-bda6-478703150ea7")
+		)
+		(pin "3"
+			(uuid "300b4868-6667-4738-be69-f94147fa9f4f")
+		)
+		(instances
+			(project "bios-programmer-ch341a"
+				(path "/a99a5965-7ad8-4ba1-a50b-0a8ec2909645"
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -12946,7 +13199,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "86943d8d-9f7c-43b4-83a8-889c0f2123aa")
-		(property "Reference" "R7"
+		(property "Reference" "R8"
 			(at 207.518 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13008,7 +13261,7 @@
 		(instances
 			(project "bios-programmer-ch341a"
 				(path "/a99a5965-7ad8-4ba1-a50b-0a8ec2909645"
-					(reference "R7")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -13102,7 +13355,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8df9f33d-e410-42dd-808b-6ba41c1ab7d8")
-		(property "Reference" "R9"
+		(property "Reference" "R10"
 			(at 213.868 27.94 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13164,93 +13417,7 @@
 		(instances
 			(project "bios-programmer-ch341a"
 				(path "/a99a5965-7ad8-4ba1-a50b-0a8ec2909645"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:IRLML6402")
-		(at 242.57 34.29 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "98b5a292-4b82-4cc5-a2d9-e97f6e5fd224")
-		(property "Reference" "Q3"
-			(at 240.03 35.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "IRLML6402"
-			(at 248.158 34.29 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 247.65 32.385 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c"
-			(at 247.65 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "-3.7A Id, -20V Vds, 65mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23"
-			(at 242.57 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "edb11ca7-eec7-45e8-90e5-435354366e70")
-		)
-		(pin "1"
-			(uuid "c5cf5eb4-b224-4369-b997-b9298a4c27a2")
-		)
-		(pin "3"
-			(uuid "3bf83be2-1b25-45af-9f43-5f8db6fc70e7")
-		)
-		(instances
-			(project "bios-programmer-ch341a"
-				(path "/a99a5965-7ad8-4ba1-a50b-0a8ec2909645"
-					(reference "Q3")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -13504,7 +13671,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aa4405c4-f65e-45af-bf76-9f787b5d1fdd")
-		(property "Reference" "R14"
+		(property "Reference" "R13"
 			(at 233.934 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13566,7 +13733,7 @@
 		(instances
 			(project "bios-programmer-ch341a"
 				(path "/a99a5965-7ad8-4ba1-a50b-0a8ec2909645"
-					(reference "R14")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -14012,7 +14179,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bd93a847-2f6f-48ea-b255-004e8136a36e")
-		(property "Reference" "R11"
+		(property "Reference" "R6"
 			(at 198.628 35.56 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14074,7 +14241,7 @@
 		(instances
 			(project "bios-programmer-ch341a"
 				(path "/a99a5965-7ad8-4ba1-a50b-0a8ec2909645"
-					(reference "R11")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -14719,7 +14886,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cf6fb962-0bdf-493b-b503-8858281c299c")
-		(property "Reference" "R8"
+		(property "Reference" "R11"
 			(at 213.868 40.64 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14781,93 +14948,7 @@
 		(instances
 			(project "bios-programmer-ch341a"
 				(path "/a99a5965-7ad8-4ba1-a50b-0a8ec2909645"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:IRLML6402")
-		(at 233.68 43.18 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d00e4674-ab64-4dbc-885b-f488f2c4d3e9")
-		(property "Reference" "Q2"
-			(at 231.14 44.45 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "IRLML6402"
-			(at 239.268 43.18 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 238.76 41.275 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c"
-			(at 238.76 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "-3.7A Id, -20V Vds, 65mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23"
-			(at 233.68 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "fb0e8c35-e771-46e3-9147-cf3e33cffd0f")
-		)
-		(pin "1"
-			(uuid "35b56e4e-0dd9-4ae9-924d-19d89f54adb0")
-		)
-		(pin "3"
-			(uuid "0dbc8e74-0082-4499-8c91-df467fad3fa9")
-		)
-		(instances
-			(project "bios-programmer-ch341a"
-				(path "/a99a5965-7ad8-4ba1-a50b-0a8ec2909645"
-					(reference "Q2")
+					(reference "R11")
 					(unit 1)
 				)
 			)
