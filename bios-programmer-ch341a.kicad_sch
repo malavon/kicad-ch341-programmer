@@ -2373,188 +2373,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:BAT54W"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "BAT54W"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
-				(at 0 -4.445 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Schottky barrier diode, SOT-323"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "schottky diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SOT?323*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "BAT54W_0_1"
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "BAT54W_1_1"
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 0 0 90)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Interface_USB:CH341A"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5810,12 +5628,6 @@
 		(uuid "700d09f8-8348-4c6e-a232-23cbba5bc6f6")
 	)
 	(junction
-		(at 252.73 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "73a21282-6ab6-4622-b2bb-98659572b4f4")
-	)
-	(junction
 		(at 191.77 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5910,12 +5722,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bc09f908-edd5-4b76-8fae-ddec2e876067")
-	)
-	(junction
-		(at 260.35 21.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bfe8c0cd-9390-4ca8-9a23-da745733e2e4")
 	)
 	(junction
 		(at 220.98 151.13)
@@ -6072,16 +5878,6 @@
 			(type default)
 		)
 		(uuid "02dfd043-a95b-4b4b-8641-99d42f6e33bc")
-	)
-	(wire
-		(pts
-			(xy 260.35 44.45) (xy 260.35 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0316bbf9-f781-44a4-89c6-7ac0dfd92fda")
 	)
 	(wire
 		(pts
@@ -6485,16 +6281,6 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 21.59) (xy 260.35 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22978baf-e575-41b5-baa4-cf15b2389208")
-	)
-	(wire
-		(pts
 			(xy 236.22 21.59) (xy 236.22 38.1)
 		)
 		(stroke
@@ -6882,16 +6668,6 @@
 			(type default)
 		)
 		(uuid "436e1dec-2ffd-4d66-af31-dc207624b270")
-	)
-	(wire
-		(pts
-			(xy 260.35 62.23) (xy 252.73 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "446ba20d-85dd-4891-a103-747495bf9b1a")
 	)
 	(wire
 		(pts
@@ -10576,91 +10352,6 @@
 			(project "bios-programmer-ch341a"
 				(path "/a99a5965-7ad8-4ba1-a50b-0a8ec2909645"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:BAT54W")
-		(at 260.35 40.64 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "31d0ca37-2b4d-4b9c-ad38-2512f787ab0d")
-		(property "Reference" "D6"
-			(at 262.89 39.0524 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BAT54W"
-			(at 262.89 41.5924 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
-			(at 255.905 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf"
-			(at 260.35 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Schottky barrier diode, SOT-323"
-			(at 260.35 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "622288ab-dc3a-4e13-9070-25e910bfcbad")
-		)
-		(pin "2"
-			(uuid "288b3943-4217-482a-91a9-934f5b7b0ce5")
-		)
-		(pin "3"
-			(uuid "e10316ec-0858-435c-8890-c388a0a6d712")
-		)
-		(instances
-			(project "bios-programmer-ch341a"
-				(path "/a99a5965-7ad8-4ba1-a50b-0a8ec2909645"
-					(reference "D6")
 					(unit 1)
 				)
 			)
