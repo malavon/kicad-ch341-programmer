@@ -5520,6 +5520,18 @@
 		(uuid "12e7bc7a-eeeb-4241-abce-3a35be9d05b8")
 	)
 	(junction
+		(at 236.22 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a910749-d8ba-44cf-bd9d-fc244d280ad6")
+	)
+	(junction
+		(at 236.22 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e296ad5-4967-4756-b20a-b230bab31cb8")
+	)
+	(junction
 		(at 209.55 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5536,12 +5548,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "29f6c9e1-b75b-480a-aa28-921c50c850c7")
-	)
-	(junction
-		(at 248.92 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2a36d82b-ad52-4b9f-8d94-1eb3c0047c9b")
 	)
 	(junction
 		(at 166.37 82.55)
@@ -5562,6 +5568,12 @@
 		(uuid "34dfac1e-945f-4f85-960b-b064f9e62b8a")
 	)
 	(junction
+		(at 247.65 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4121e774-e243-4634-97d4-1c312723ec7e")
+	)
+	(junction
 		(at 148.59 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5578,12 +5590,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4b4a77c3-319d-43c3-80c1-a4bb1d0228d4")
-	)
-	(junction
-		(at 236.22 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "549a642a-ad8d-4feb-99ad-de78864b5664")
 	)
 	(junction
 		(at 220.98 92.71)
@@ -5688,6 +5694,12 @@
 		(uuid "9832cc02-5864-4aec-9e9d-ee33edfeda95")
 	)
 	(junction
+		(at 236.22 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b6cb9b7-dda4-41c8-b601-baf1160817b7")
+	)
+	(junction
 		(at 80.01 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5778,7 +5790,7 @@
 		(uuid "f5a7bef1-2123-4e13-814f-91798394b4c0")
 	)
 	(junction
-		(at 223.52 62.23)
+		(at 224.79 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f6ce854e-fe2f-4a56-9f6f-adcb2d41f524")
@@ -5961,6 +5973,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 49.53) (xy 236.22 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0933d73d-7e4b-4f21-a61e-2d0f2a21e7ec")
+	)
+	(wire
+		(pts
 			(xy 105.41 40.64) (xy 105.41 60.96)
 		)
 		(stroke
@@ -6071,6 +6093,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 49.53) (xy 247.65 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e4450a2-4aee-4a85-9048-2e36121f082d")
+	)
+	(wire
+		(pts
 			(xy 129.54 50.8) (xy 129.54 48.26)
 		)
 		(stroke
@@ -6091,7 +6123,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 58.42) (xy 238.76 58.42)
+			(xy 236.22 58.42) (xy 237.49 58.42)
 		)
 		(stroke
 			(width 0)
@@ -6401,7 +6433,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 58.42) (xy 223.52 62.23)
+			(xy 224.79 58.42) (xy 224.79 62.23)
 		)
 		(stroke
 			(width 0)
@@ -6428,16 +6460,6 @@
 			(type default)
 		)
 		(uuid "301ecf4c-2d4a-494d-8a1f-a9de4bcd7907")
-	)
-	(wire
-		(pts
-			(xy 248.92 62.23) (xy 252.73 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30291910-dc5d-4982-8313-c4e1ae32f4e1")
 	)
 	(wire
 		(pts
@@ -6641,7 +6663,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 58.42) (xy 236.22 58.42)
+			(xy 234.95 58.42) (xy 236.22 58.42)
 		)
 		(stroke
 			(width 0)
@@ -6951,7 +6973,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 58.42) (xy 223.52 58.42)
+			(xy 224.79 58.42) (xy 227.33 58.42)
 		)
 		(stroke
 			(width 0)
@@ -7011,6 +7033,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 49.53) (xy 224.79 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b910bc4-fcd4-4f25-af98-4525f5c1a6c7")
+	)
+	(wire
+		(pts
 			(xy 55.88 111.76) (xy 59.69 111.76)
 		)
 		(stroke
@@ -7058,6 +7090,16 @@
 			(type default)
 		)
 		(uuid "7172b7e5-726c-4602-abd8-e3276a51b9c3")
+	)
+	(wire
+		(pts
+			(xy 236.22 49.53) (xy 237.49 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "726d3d55-2a26-4b9b-b893-59bbb6a4adc0")
 	)
 	(wire
 		(pts
@@ -7121,7 +7163,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 58.42) (xy 248.92 62.23)
+			(xy 247.65 58.42) (xy 247.65 62.23)
 		)
 		(stroke
 			(width 0)
@@ -7231,6 +7273,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 54.61) (xy 236.22 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fdb8e5d-c21e-436e-aaa5-7b4faed00ee3")
+	)
+	(wire
+		(pts
 			(xy 53.34 149.86) (xy 58.42 149.86)
 		)
 		(stroke
@@ -7271,7 +7323,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 62.23) (xy 223.52 62.23)
+			(xy 215.9 62.23) (xy 224.79 62.23)
 		)
 		(stroke
 			(width 0)
@@ -7391,6 +7443,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 49.53) (xy 224.79 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cd99789-5c0d-4650-b1d0-5febce19744c")
+	)
+	(wire
+		(pts
 			(xy 142.24 128.27) (xy 148.59 128.27)
 		)
 		(stroke
@@ -7498,6 +7560,16 @@
 			(type default)
 		)
 		(uuid "979858e6-bc74-4fb6-9e4b-c6d7e7bfc14f")
+	)
+	(wire
+		(pts
+			(xy 224.79 54.61) (xy 236.22 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "980ba7e8-85c7-4802-b8dd-66c2971b1a77")
 	)
 	(wire
 		(pts
@@ -7681,6 +7753,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 62.23) (xy 252.73 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aba36b02-967a-42ad-9db4-47ea5b4337c5")
+	)
+	(wire
+		(pts
 			(xy 105.41 106.68) (xy 132.08 106.68)
 		)
 		(stroke
@@ -7691,7 +7773,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 57.15) (xy 236.22 58.42)
+			(xy 236.22 54.61) (xy 236.22 58.42)
 		)
 		(stroke
 			(width 0)
@@ -8011,6 +8093,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 49.53) (xy 247.65 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6575c06-befd-444d-b801-886e879f82b5")
+	)
+	(wire
+		(pts
 			(xy 171.45 93.98) (xy 177.8 93.98)
 		)
 		(stroke
@@ -8311,7 +8403,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 62.23) (xy 248.92 62.23)
+			(xy 224.79 62.23) (xy 247.65 62.23)
 		)
 		(stroke
 			(width 0)
@@ -8481,7 +8573,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 58.42) (xy 248.92 58.42)
+			(xy 245.11 58.42) (xy 247.65 58.42)
 		)
 		(stroke
 			(width 0)
@@ -8950,7 +9042,7 @@
 		(uuid "e469160b-e888-4567-b814-713c1cca03d8")
 	)
 	(label "OVPLED"
-		(at 238.76 58.42 180)
+		(at 240.03 54.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9280,7 +9372,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1045a9c6-0111-4579-bb9a-be81a7e08491")
-		(property "Reference" "R14"
+		(property "Reference" "R15"
 			(at 250.698 49.53 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9342,7 +9434,7 @@
 		(instances
 			(project "bios-programmer-ch341a"
 				(path "/a99a5965-7ad8-4ba1-a50b-0a8ec2909645"
-					(reference "R14")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -10921,7 +11013,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 242.57 58.42 180)
+		(at 241.3 58.42 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10931,7 +11023,7 @@
 		(dnp no)
 		(uuid "421b1bf0-ce17-47ec-b8a8-2b5d792289ab")
 		(property "Reference" "D5"
-			(at 239.776 59.69 0)
+			(at 238.506 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10941,7 +11033,7 @@
 			)
 		)
 		(property "Value" "OV2"
-			(at 245.872 59.69 0)
+			(at 244.602 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10951,7 +11043,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 242.57 58.42 0)
+			(at 241.3 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10962,7 +11054,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 242.57 58.42 0)
+			(at 241.3 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10973,7 +11065,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 242.57 58.42 0)
+			(at 241.3 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10984,7 +11076,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 242.57 58.42 0)
+			(at 241.3 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11847,7 +11939,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 229.87 58.42 0)
+		(at 231.14 58.42 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -11858,7 +11950,7 @@
 		(dnp no)
 		(uuid "60277af8-b199-4764-9cf1-51caa4cdda09")
 		(property "Reference" "D4"
-			(at 232.664 59.69 0)
+			(at 235.204 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11868,7 +11960,7 @@
 			)
 		)
 		(property "Value" "OV1"
-			(at 226.568 59.69 0)
+			(at 229.108 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11878,7 +11970,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 229.87 58.42 0)
+			(at 231.14 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11889,7 +11981,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 58.42 0)
+			(at 231.14 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11900,7 +11992,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 229.87 58.42 0)
+			(at 231.14 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11911,7 +12003,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 229.87 58.42 0)
+			(at 231.14 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13353,7 +13445,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 236.22 53.34 0)
+		(at 231.14 49.53 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13363,7 +13455,7 @@
 		(dnp no)
 		(uuid "aa4405c4-f65e-45af-bf76-9f787b5d1fdd")
 		(property "Reference" "R13"
-			(at 233.934 53.34 90)
+			(at 231.14 51.816 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13372,8 +13464,8 @@
 				)
 			)
 		)
-		(property "Value" "220Ω"
-			(at 236.22 53.34 90)
+		(property "Value" "200Ω"
+			(at 231.14 49.53 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13383,7 +13475,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 234.442 53.34 90)
+			(at 231.14 51.308 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13394,7 +13486,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 53.34 0)
+			(at 231.14 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13405,7 +13497,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 236.22 53.34 0)
+			(at 231.14 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15027,6 +15119,85 @@
 			(project "bios-programmer-ch341a"
 				(path "/a99a5965-7ad8-4ba1-a50b-0a8ec2909645"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 241.3 49.53 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e94d3bdb-05bb-44d3-a099-c251bc4ba9db")
+		(property "Reference" "R14"
+			(at 241.3 51.816 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "200Ω"
+			(at 241.3 49.53 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 241.3 51.308 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 241.3 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1680a49e-2af7-4efd-92a5-3a81c221be91")
+		)
+		(pin "1"
+			(uuid "d52029d7-d8f9-42ea-b5f8-ef5dfc99013d")
+		)
+		(instances
+			(project "bios-programmer-ch341a"
+				(path "/a99a5965-7ad8-4ba1-a50b-0a8ec2909645"
+					(reference "R14")
 					(unit 1)
 				)
 			)
