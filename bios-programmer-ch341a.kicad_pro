@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 1.0,
-          "width": 1.25
+          "drill": 1.0,
+          "height": 1.64,
+          "width": 1.64
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -130,7 +130,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.1,
+        "min_clearance": 0.25,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.025,
         "min_groove_width": 0.0,
@@ -493,7 +493,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.3,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.25,
@@ -514,20 +514,20 @@
         "clearance": 0.1,
         "name": "NC",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1,
         "tuning_profile": ""
       },
       {
-        "clearance": 0.15,
+        "clearance": 0.3,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.25,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "PWR",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.4,
         "tuning_profile": "",
@@ -535,12 +535,40 @@
         "via_drill": 0.3
       },
       {
-        "clearance": 0.2,
-        "name": "Wide 600nm",
+        "clearance": 0.3,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.25,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "SPI/I2C",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.3,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.35,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Semiwide",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.6,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.35,
+        "name": "Wide",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.95,
         "tuning_profile": ""
       }
     ],
@@ -556,15 +584,43 @@
       },
       {
         "netclass": "PWR",
-        "pattern": "GND*"
+        "pattern": "GND"
       },
       {
         "netclass": "NC",
         "pattern": "unconnected-*"
       },
       {
-        "netclass": "Wide 600nm",
-        "pattern": "VG_MAIN"
+        "netclass": "SPI/I2C",
+        "pattern": "/CS*"
+      },
+      {
+        "netclass": "SPI/I2C",
+        "pattern": "/M*"
+      },
+      {
+        "netclass": "SPI/I2C",
+        "pattern": "/CLK*"
+      },
+      {
+        "netclass": "SPI/I2C",
+        "pattern": "/S*"
+      },
+      {
+        "netclass": "Semiwide",
+        "pattern": "/V*"
+      },
+      {
+        "netclass": "Wide",
+        "pattern": "/REVI_PROT"
+      },
+      {
+        "netclass": "Semiwide",
+        "pattern": "/Q2*"
+      },
+      {
+        "netclass": "Semiwide",
+        "pattern": "/431*"
       }
     ]
   },
