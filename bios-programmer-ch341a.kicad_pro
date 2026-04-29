@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 1.64,
-          "width": 1.64
+          "drill": 1.1,
+          "height": 2.0,
+          "width": 2.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -514,7 +514,7 @@
         "clearance": 0.1,
         "name": "NC",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1,
         "tuning_profile": ""
@@ -536,11 +536,11 @@
       },
       {
         "clearance": 0.3,
-        "diff_pair_gap": 0.25,
-        "diff_pair_width": 0.25,
+        "diff_pair_gap": 0.35,
+        "diff_pair_width": 0.3,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "SPI/I2C",
+        "name": "SPI/I2C/SENSE",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -550,12 +550,14 @@
         "via_drill": 0.3
       },
       {
-        "clearance": 0.35,
+        "clearance": 0.3,
+        "diff_pair_gap": 0.4,
+        "diff_pair_width": 0.4,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Semiwide",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.6,
         "tuning_profile": "",
@@ -563,10 +565,10 @@
         "via_drill": 0.3
       },
       {
-        "clearance": 0.35,
+        "clearance": 0.39,
         "name": "Wide",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.95,
         "tuning_profile": ""
@@ -584,26 +586,26 @@
       },
       {
         "netclass": "PWR",
-        "pattern": "GND"
+        "pattern": "GND*"
       },
       {
         "netclass": "NC",
         "pattern": "unconnected-*"
       },
       {
-        "netclass": "SPI/I2C",
+        "netclass": "SPI/I2C/SENSE",
         "pattern": "/CS*"
       },
       {
-        "netclass": "SPI/I2C",
+        "netclass": "SPI/I2C/SENSE",
         "pattern": "/M*"
       },
       {
-        "netclass": "SPI/I2C",
+        "netclass": "SPI/I2C/SENSE",
         "pattern": "/CLK*"
       },
       {
-        "netclass": "SPI/I2C",
+        "netclass": "SPI/I2C/SENSE",
         "pattern": "/S*"
       },
       {
@@ -904,7 +906,7 @@
         "uuid": "a99a5965-7ad8-4ba1-a50b-0a8ec2909645"
       }
     ],
-    "used_designators": "",
+    "used_designators": "J9",
     "variants": []
   },
   "sheets": [
