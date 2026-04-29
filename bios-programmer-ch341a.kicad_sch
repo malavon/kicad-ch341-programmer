@@ -7893,16 +7893,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 39.37) (xy 200.66 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bcd861f3-dc56-4ba7-bc14-75236ced9ff3")
-	)
-	(wire
-		(pts
 			(xy 53.34 58.42) (xy 53.34 60.96)
 		)
 		(stroke
@@ -7943,7 +7933,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 29.21) (xy 200.66 31.75)
+			(xy 200.66 29.21) (xy 200.66 52.07)
 		)
 		(stroke
 			(width 0)
@@ -8090,6 +8080,16 @@
 			(type default)
 		)
 		(uuid "d6575c06-befd-444d-b801-886e879f82b5")
+	)
+	(wire
+		(pts
+			(xy 200.66 59.69) (xy 200.66 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d67eef46-09fc-4f2e-b7a9-66b896550f0a")
 	)
 	(wire
 		(pts
@@ -8581,6 +8581,16 @@
 		)
 		(uuid "00d13582-464b-448c-a10a-710dd49b8606")
 	)
+	(label "REVI_PROT"
+		(at 200.66 41.91 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "05fa841e-10aa-489f-8024-8a816bfe4858")
+	)
 	(label "RST"
 		(at 55.88 111.76 0)
 		(effects
@@ -8661,7 +8671,7 @@
 		)
 		(uuid "3395952e-970a-42b7-ac0f-b016a8500053")
 	)
-	(label "REF431"
+	(label "431REF"
 		(at 209.55 49.53 0)
 		(effects
 			(font
@@ -8720,6 +8730,16 @@
 			(justify left bottom)
 		)
 		(uuid "5028a1f2-848e-490e-a389-1f3a9f0a4c4c")
+	)
+	(label "Q2_S"
+		(at 234.95 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5681f915-ab53-4e0d-bc6b-051720e4f9f0")
 	)
 	(label "SCL_I"
 		(at 247.65 92.71 180)
@@ -8800,6 +8820,16 @@
 			(justify right bottom)
 		)
 		(uuid "7022183e-54c8-456f-a309-26648526b629")
+	)
+	(label "Q2_G"
+		(at 227.33 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "71add8d7-f4f8-4c84-8b6c-14ca68d2f4a8")
 	)
 	(label "SDA_I"
 		(at 247.65 95.25 180)
@@ -8941,16 +8971,6 @@
 		)
 		(uuid "afebca33-fbd6-47a2-8e97-48ae0437601d")
 	)
-	(label "VBJ-"
-		(at 189.23 62.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bf595fc9-08cb-4eaf-ab24-25dbea3282ed")
-	)
 	(label "CLK_I"
 		(at 247.65 127 180)
 		(effects
@@ -9080,6 +9100,16 @@
 			(justify right bottom)
 		)
 		(uuid "ffcc9a5f-018b-496f-bfcf-bc516d0f5eb5")
+	)
+	(label "431AN"
+		(at 215.9 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ffd11c3c-4ede-4efe-aff3-1baf6fedf489")
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x06")
@@ -13920,7 +13950,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 200.66 35.56 180)
+		(at 200.66 55.88 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13930,7 +13960,7 @@
 		(dnp no)
 		(uuid "bd93a847-2f6f-48ea-b255-004e8136a36e")
 		(property "Reference" "R6"
-			(at 198.628 35.56 90)
+			(at 198.628 55.88 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13940,7 +13970,7 @@
 			)
 		)
 		(property "Value" "10KΩ"
-			(at 200.66 35.56 90)
+			(at 200.66 55.88 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13950,7 +13980,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 202.438 35.56 90)
+			(at 202.438 55.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13961,7 +13991,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 35.56 0)
+			(at 200.66 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13972,7 +14002,7 @@
 			)
 		)
 		(property "Description" "10KΩ, 0603, 5%"
-			(at 200.66 35.56 0)
+			(at 200.66 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
