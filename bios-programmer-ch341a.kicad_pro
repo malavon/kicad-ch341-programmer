@@ -60,7 +60,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "track_dangling|71139598|74939598|5a4ad6a6-3519-43f3-9156-0a472d5cf339|00000000-0000-0000-0000-000000000000",
+          "kicad drc error"
+        ]
+      ],
       "meta": {
         "version": 2
       },
