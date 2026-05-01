@@ -1,0 +1,39 @@
+Title: Improving a CH341 memory IC programmer
+
+Content Warning: PCB may contain rounded tracks.
+
+I've edited my post to hopefully make it more appealing to check this out and provide advice/review. I think this programmer may actually be very useful to a few people on this specific forum, who are into electronics and probably have a quality bench PSU.
+After a lot of non-help of and some actual help of ChatGPT combined with a few power protection circuits from Stack Exchange I managed to make something I'm quite content with. 
+
+Some background:
+You might know the omnipresent black/green CH341 programmers to program NAND/EEPROM memory. There are many other programmers available for purchase as well. Some focus on being able to program every existing chip out there, others are simply trying to be the cheapest possible. 
+The CH341 programmers feature a ZIF socket (generally a fake 3M TEXTOOL one). This socket is used for DIP ICs or with adapters like SOIC ZIF sockets.
+Another adapter has an IDC connector to connect a ribbon wire ending in a SOIC-8 test clip, providing in-circuit programming capability. It's low-cost, pretty low-quality and quite error-prone to use. Nonetheless they're useful for people like me who don't need them often. 
+
+One thing that stood out to me is that amongst all the in-circuit programmers I could find, none seem to focus on reliably powering the IC it's connecting to. They all seem to provide their own power supply in one form or another. For most of the CH341 devices that sometimes results in 5V on 3.3V/1.8V signal lines etc. The only reason those programmers don't damage the circuits too often is that the current they can provide is rather limited.
+
+The black CH341 programmer I have needed to be "hacked" with a jumper wire and a few tracks cut to ameliorate this. This comes at the cost of even lower supply current. Another design that I have has a voltage selector switch, but also doesn't provide enough power to be able to use it successfully (coupled with a rather hard to connect clip).
+
+So I decided to build a better version of these programmers, featuring isolated ground and power which is supplied from an external lab bench PSU. This solution provides both accurate power supply but also reliable monitoring in case something else in the circuit is sinking a lot of current (like charging capacitors).
+
+A quick rundown of the latest iterations: 
+#3 Power path protection (reverse connection & overvoltage)
+#4 Sense wire connection all the way through the IDC connectors to the clip
+
+The currently last iteration of the schematics and PCB can be found below.
+
+Feel free to ask me any questions about why I made certain decisions. You might also find an answer in the commit messages if you don't mind going over there.
+
+The project is on Github: [url=https://github.com/malavon/kicad-ch341-programmer]https://github.com/malavon/kicad-ch341-programmer[/url]
+
+
+
+TWEEDE POST
+
+Could a mod maybe move this to "Projects, Designs, and Technical Stuff ". It might be more suited for that board, although most posts on that forum seem to suggest a different use. This may make it easier for interested people to find this post.
+
+
+da's weer nie den eerste keer hè, heb da hier al ne keer gedaan lang geleden ... 10 jaar, 5 jaar? 
+zoiets ja ...
+
+todo: groene prog: 2.2x4.9cm
