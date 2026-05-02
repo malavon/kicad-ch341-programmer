@@ -1,0 +1,82 @@
+Q	Reason	Supplier	Mfr	Part	Datasheet URL	Designator	Des. Type	Mounting	Package (point/point)  Pitch (mil)	Package (dmm/dmm) Pitch (mm)	Value	Tolerance	Power Rating (mW)	Voltage Rating (mV)	Current Rating (mA)
++20	Procure	Mouser Elec	Bourns	MF-MSMF250/16X-2		F	PPTC	SMD	1812	4532	16VDC 2.5A TODO 100A max			16000	
++6	Procure	Mouser Elec	CDE	AVE476M16D16T-F		C	Al	SMD		Can 63x53	47u	20%		16000	
++5	Procure	Mouser Elec	CDE	AFK227M16X16T-F		C	Al	SMD		Can 63x82	220u	20%		16000	
++100	Procure	Mouser Elec	Diodes Inc	DMN3404LQ-7	MOSFET N-Channel/Diodes Inc/DMN3404L.pdf	Q	MOSFET	SMD	SOT-23-3				750		5800
++12	Procure	Mouser Elec	E-Switch	EG1206		SW	SPDT	THT		3mm					200
++10	Procure	Mouser Elec	Eaton Electronics	EM366502		CONN	Terminal Block	THT							
++100	Procure	Mouser Elec	Fairchild	BSS138L		Q	MOSFET-N	SMD	SOT-23-3				350		200
++24	Procure	Mouser Elec	Harwin	M20-9982346		CONN	Header 0.1”	THT	100	2540u					
++50	Procure	Mouser Elec	Inolux	HT-193UYG-5592		D	LED	SMD			YelGrn 573nm				
++10	Procure	Mouser Elec	KOA Speer	RK1/4DCT52R5494F		R	Metal Film	THT			5490000	??1%??	250		900
++100	Procure	Mouser Elec	Murata	GRM188R71C105KE15D		C	MLCC	SMD	0603		1u			16000	
++100	Procure	Mouser Elec	Murata	GRT188C71C225KE13D		C	MLCC	SMD	0603	??	2.2µF 16VDC 06? TODO	10%			
++36	Procure	Mouser Elec	Murata	LQM31PN2R2M00L		L	Fixed	SMD	TODO		2200n 1MHz	20%			
++10	Procure	Mouser Elec	Nichicon	UUD1E100MCL1GS		C	Al	SMD	TODO		10u			25000	
++100	Procure	Mouser Elec	On Semi	MMBT2907ALT1G		BJT	PNP	SMD						60000	600
++100	Procure	Mouser Elec	On Semi	MMBT3904LT1G		BJT	NPN	SMD							
++5	Procure	Mouser Elec	Omron Electronics	D2F-01F		TODO									
++5	Procure	Mouser Elec	Omron Electronics	D2F-01		TODO									
++100	Procure	Mouser Elec	Panasonic	ERJ-3EKF2000V		R	Thick Film	SMD	0603		200				
++10	Procure	Mouser Elec	Phoenix Contact	1989447		CONN	Terminal Block	THT							
++10	Procure	Mouser Elec	Same Sky Terminal	TB003-500-P02BE		CONN	Terminal Block	THT							
++100	Procure	Mouser Elec	SEI Stackpole	RMCF0603FT5M49		R	Thick Film	SMD	0603		5490000				
++100	Procure	Mouser Elec	SEI Stackpole	RMCF0603FT160K		R	Thick Film	SMD	0603		160000	TODO	100		
++100	Procure	Mouser Elec	SEI Stackpole	RNF14FTD1K00		R	Metal Film	THT			1000	100ppm	250		
++36	Procure	Mouser Elec	Taiyo Yuden	JMK212B7106KG-T		C	MLCC	SMD	?0603?		10u	X7R		6300	
++100	Procure	Mouser Elec	Taiyo Yuden	LMK212B7475KG-T		C	MLCC	SMD	?0603?		4700n	X7R		10000	
++12	Procure	Mouser Elec	Texas Instruments	LM3671MF-1.8/NOPB		U	Switching Voltage Regulator	SMD			2MHz				600
++25	Procure	Mouser Elec	Texas Instruments	LM3671MF-2.8/NOPB		U	Switching Voltage Regulator	SMD			2MHz				600
++21	Procure	Mouser Elec	Texas Instruments	TLV6703DDCT	https://www.ti.com/lit/ds/symlink/tlv6703.pdf	U	Comparator	SMD	SOT-23-6						
++10	Procure	Mouser Elec	Vishay / BC Components	K104K10X7RF5UH5		C	MLCC	SMD			100n	X7R 10%		50000	
++2	Procure	Mouser Elec	Winbond	W25Q128JVSIM		U	NOR	SMD	SOIC-8						
++2	Procure	Mouser Elec	Winbond	W25Q64JVSSIQ		U	NOR	SMD	SOIC-8						
++2	Procure	Mouser Elec	Renesas	AT25DF321A-SH-B		U	NOR	SMD	SOIC-8						
++2	Procure	Mouser Elec	Winbond	W25Q64JWSSIM		U	NOR	SMD	SOIC-8						
++2	Procure	Mouser Elec	Winbond	W25Q128JVSIQ		U	NOR	SMD	SOIC-8						
++200	Procure	Mouser Elec	Yageo	CC0603KRX7R7BB104		C	MLCC	SMD	0603	??	100n	10%	?DATA?	16000	
++100	Procure	Mouser Elec	Yageo	RC0603JR-0710KL		R	Thick Film	SMD	0603		10000	5%			
++12	Procure	Mouser Elec	Yageo	RC0603FR-071K05L		R	Thick Film	SMD	0603	?PACKAGEmm?	1050	1%			
++100	Procure	Mouser Elec	Yageo	RC0603JR-071K5L		R	Thick Film	SMD	0603	TODO	1500	5%			
++100	Procure	Mouser Elec	Yageo	RC0603FR-0736K5L		R	Thick Film	SMD	0603		36500	1%			
++100	Procure	Mouser Elec	Yageo	AC0603JR-070RL		R	Thick Film	SMD	0603		0	5%	100	?VOLT?	
++100	Procure	Mouser Elec	Yageo	MFR-25FRF52-160K		R	Metal Film	TFT			160000	1.00%	250		
++3	Procure	Adafruit	On Semiconductors?	TIP120		Q	NPN Darlington	THT	TO-220				2000	60000	5000
++5	Procure	Adafruit	Adafruit	SOT-23/SOT-23-5			Breakout Board	THT	DIP-3						
++4	Procure	Adafruit	Adafruit	SOT-89/SOT-223			Breakout Board	THT	SIP-4						
++4	Procure	Adafruit	Adafruit	TO252			Breakout Board	THT	SIP-3						
++9	Procure	Adafruit	??	Breakaway Header 90° Angle		J	Header	THT	100	2540u					
++1	Procure	Adafruit	??	Breakaway Header 0.1		J	Header	THT	100	2540u	18				
++3	Procure	Adafruit	??	Beagle Bone Black Breakaway Header 0.1		J	Header	THT	100	2540u	36				
++25	Procure	Adafruit	??	IR LED		D	LED	THT		5	IR	??	??		
++1	Procure	Adafruit	??	TSL2561		U?	Breakout Board	THT							
++10	Procure	Adafruit	??	1N4001		D	Diode	THT							
++1	Procure	Adafruit	??	PCA9685		??	Breakout Board	THT	SIP-6						
++25	Procure	Adafruit	??	??		D	LED	THT		5	Clear White				
++1	Procure	Adafruit	??	??		D	LED	THT			White		1000		
++1	Procure	Adafruit	??	GTPA013		??	Breakout Board	THT	SIP-9						
++1	Procure	Adafruit	?? TODO SPLIT?	LSM303/BMP180/L3GD20		??	Breakout Board	THT	SIP-10						
++1	Procure	Adafruit	??	IR SENSOR?		??	IR Sensor??	THT	??						
++1	Procure	Adafruit	TRACO POWER	TSR 1-2450		??	DC/DC Buck Converter 5V 1A								
+															
+															
+-2	Project	BBB Camera?	Harwin	M20-9982346											
+-3	Assembly	Breakout Boards	Adafruit	SOT-23/SOT-23-5			Breakout Board	THT							
+	TODO breakout boards TVL? DMN?														
+															
++6	Procure	Eleshop	On Semi?	BC516		Q	PNP Darlington		TO-92-3				625	30000	1000
++6	Procure	Eleshop	On Semi?	BC517		Q	NPN Darlington		TO-92-3				625	30000	1000
++10	Procure	Eleshop	On Semi?	BC327		Q	PNP		TO-92-3				625	45000	800
++13	Procure	Eleshop	On Semi?	BC337		Q	NPN		TO-92-3				625	45000	800
++28	Procure	Eleshop	On Semi?	BC547		Q	NPN		TO-92-3				500	45000	100
++28	Procure	Eleshop	ST Microelectronics?	BC557B		Q	PNP		TO-92-3				500	45000	100
++4	Procure	Eleshop	ST Microelectronics?	BD139		Q	NPN		TO-126-3				1250	80000	1500
++4	Procure	Eleshop	ST Microelectronics?	BD140		Q	PNP		TO-126-3				1250	80000	1500
+															
++2	Procure	Texas Instruments	Samtec	TS-132-G-AA 		J	Header 0.1”	THT	100	2540u					
++6	Procure	Texas Instruments	Texas Instruments	SOT-23/SOT-23-5/SOT-23-6			Breakout Board	THT	100	2540u					
++6	Procure	Texas Instruments	Texas Instruments	SOIC-8			Breakout Board	THT	100	2540u					
++6	Procure	Texas Instruments	Texas Instruments	TSSOP-8			Breakout Board	THT	100	2540u					
++6	Procure	Texas Instruments	Texas Instruments	MSOP-8/VSSOP-8)			Breakout Board	THT	100	2540u					
++6	Procure	Texas Instruments	Texas Instruments	SC70-6/SC70-5			Breakout Board	THT	100	2540u					
++6	Procure	Texas Instruments	Texas Instruments	SOT563-6			Breakout Board	THT	100	2540u					
