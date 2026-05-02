@@ -5651,16 +5651,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "YGr Status LEDs"
-		(exclude_from_sim no)
-		(at 122.682 70.866 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "09d878a5-2913-415d-a910-a2710358b528")
-	)
 	(text "disable\nEEPROM"
 		(exclude_from_sim no)
 		(at 58.42 133.858 0)
@@ -5681,10 +5671,10 @@
 		)
 		(uuid "b19deae8-37df-45c9-bfdf-9c6818ac5ce0")
 	)
-	(text_box "If no sense wires are required, 8-pin IDC connecters can be soldered in instead of 10-pin. Start at pin 3 instead of 1, leaving the first two through-holes (nearest to the PCB's mounting holes) unpopulated.\n"
+	(text_box "If no sense wires are required, 8-pin IDC connecters can be soldered in instead of 10-pin. Start at pin 3 instead of 1, leaving the first two through-holes (nearest to the PCB's mounting holes) unpopulated.\nDo not populate J9."
 		(exclude_from_sim no)
-		(at 187.706 73.8599 0)
-		(size 36.322 18.8501)
+		(at 187.706 71.4723 0)
+		(size 36.322 20.9837)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width -0.0001)
@@ -9570,28 +9560,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
-			(at 43.18 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part" ""
-			(at 43.18 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "c02f9172-1797-43ab-81b5-666df03f7547")
 		)
@@ -9739,6 +9707,28 @@
 		)
 		(property "Description" "10KΩ, 0603, 5%"
 			(at 252.73 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr" "Yageo"
+			(at 252.73 49.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "RC0603JR-0710KL"
+			(at 252.73 49.53 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10079,6 +10069,28 @@
 				)
 			)
 		)
+		(property "Mfr" "Panasonic"
+			(at 118.11 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "ERJ-3EKF2000V"
+			(at 118.11 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8b8099b4-5a63-48d6-b74c-f124c1252a3f")
 		)
@@ -10160,6 +10172,28 @@
 				)
 			)
 		)
+		(property "Mfr" "Yageo"
+			(at 173.99 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "CC0603KRX7R7BB104"
+			(at 173.99 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "45da2cfd-6f83-4088-b881-2d8c66d218a7")
 		)
@@ -10229,6 +10263,28 @@
 			)
 		)
 		(property "Description" "low-ESR ceramic"
+			(at 142.24 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr" "Yageo"
+			(at 142.24 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "CC0603KRX7R7BB104"
 			(at 142.24 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -10354,8 +10410,9 @@
 				)
 			)
 		)
-		(property "Value" "PWR"
+		(property "Value" "TODO"
 			(at 51.308 69.85 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10386,7 +10443,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "LED; Blue? YellowGreen? RED?"
 			(at 53.34 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -10400,6 +10457,16 @@
 		(property "Sim.Pins" "1=K 2=A"
 			(at 53.34 67.31 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Label" "PWR"
+			(at 50.038 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10557,6 +10624,28 @@
 		)
 		(property "Description" "low-ESR ceramic"
 			(at 63.5 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr" "Yageo"
+			(at 63.5 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "CC0603KRX7R7BB104"
+			(at 63.5 111.76 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10901,8 +10990,9 @@
 				)
 			)
 		)
-		(property "Value" "I²C"
+		(property "Value" "YellowGreen"
 			(at 124.968 69.85 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10933,7 +11023,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "LED, YellowGreen"
 			(at 127 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -10946,6 +11036,38 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 127 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Label" "I²C"
+			(at 123.698 67.31 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr" "Inolux"
+			(at 127 67.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "HT-193UYG-5592"
+			(at 127 67.31 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11104,7 +11226,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "IDC 2x05 0.1\" connector"
 			(at 204.47 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -11301,7 +11423,7 @@
 			)
 		)
 		(property "Mfr" "Toshiba"
-			(at 233.68 43.18 90)
+			(at 233.68 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11312,7 +11434,7 @@
 			)
 		)
 		(property "Part" "SSM3J328R"
-			(at 233.68 43.18 90)
+			(at 233.68 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11361,7 +11483,7 @@
 				)
 			)
 		)
-		(property "Value" "OV2"
+		(property "Value" "Red"
 			(at 246.38 59.182 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11393,7 +11515,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "LED; 0805 or larger"
 			(at 247.65 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -11485,6 +11607,28 @@
 		)
 		(property "Description" "200Ω, 0603, 5%"
 			(at 127 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr" "Panasonic"
+			(at 127 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "ERJ-3EKF2000V"
+			(at 127 78.74 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11910,7 +12054,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "IDC 2x05 0.1\" connector"
 			(at 204.47 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -12101,6 +12245,28 @@
 				)
 			)
 		)
+		(property "Mfr" "Yageo"
+			(at 227.33 39.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "RC0603JR-0710KL"
+			(at 227.33 39.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "96e4b7c4-e308-466f-a9d9-61c5dfad02bb")
 		)
@@ -12215,7 +12381,7 @@
 				)
 			)
 		)
-		(property "Value" "OV1"
+		(property "Value" "Red"
 			(at 226.06 57.912 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12247,7 +12413,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "LED; 0805 or larger"
 			(at 224.79 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -12338,6 +12504,28 @@
 			)
 		)
 		(property "Description" "low-ESR ceramic"
+			(at 87.63 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr" "Yageo"
+			(at 87.63 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "CC0603KRX7R7BB104"
 			(at 87.63 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -12510,7 +12698,7 @@
 			)
 		)
 		(property "Mfr" "Toshiba"
-			(at 242.57 34.29 90)
+			(at 242.57 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12521,7 +12709,7 @@
 			)
 		)
 		(property "Part" "SSM3J328R"
-			(at 242.57 34.29 90)
+			(at 242.57 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12604,6 +12792,28 @@
 		)
 		(property "Description" "200Ω, 0603, 5%"
 			(at 53.34 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr" "Panasonic"
+			(at 53.34 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "ERJ-3EKF2000V"
+			(at 53.34 77.47 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12912,8 +13122,9 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RESET"
+		(property "Value" "SPST"
 			(at 65.024 53.34 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12947,6 +13158,16 @@
 		(property "Description" "Single Pole Single Throw (SPST) switch"
 			(at 63.5 53.34 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Label" "RESET"
+			(at 65.024 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13116,6 +13337,17 @@
 			)
 		)
 		(property "Mfr" "Texas Instruments"
+			(at 161.29 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "ISO6741DWR "
 			(at 161.29 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -13561,6 +13793,28 @@
 				)
 			)
 		)
+		(property "Mfr" "Yageo"
+			(at 148.59 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "CC0603KRX7R7BB104"
+			(at 148.59 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3484b639-3290-42b3-a275-1d67554bbd1c")
 		)
@@ -13630,6 +13884,28 @@
 			)
 		)
 		(property "Description" "low-ESR ceramic"
+			(at 72.39 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr" "Taiyo Yuden"
+			(at 72.39 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "JMK212B7106KG-T"
 			(at 72.39 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -13796,6 +14072,28 @@
 				)
 			)
 		)
+		(property "Mfr" "Panasonic"
+			(at 231.14 49.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "ERJ-3EKF2000V"
+			(at 231.14 49.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8d8ff290-1de7-41a1-aef9-9b5cc757b7ed")
 		)
@@ -13875,7 +14173,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Kemet"
+		(property "Mfr" "TODO calc"
 			(at 36.83 127 0)
 			(hide yes)
 			(show_name no)
@@ -13886,7 +14184,7 @@
 				)
 			)
 		)
-		(property "Part" "C0603C180F8HACAUTO "
+		(property "Part" "TODO"
 			(at 36.83 127 0)
 			(hide yes)
 			(show_name no)
@@ -13933,8 +14231,9 @@
 				)
 			)
 		)
-		(property "Value" "SPI"
+		(property "Value" "YellowGreen"
 			(at 116.078 69.85 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13965,7 +14264,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "LED, YellowGreen"
 			(at 118.11 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -13978,6 +14277,38 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 118.11 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Label" "SPI"
+			(at 114.808 67.31 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr" "Inolux"
+			(at 118.11 67.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "HT-193UYG-5592"
+			(at 118.11 67.31 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14058,6 +14389,50 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 184.15 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AltMfr1" "Schützinger"
+			(at 184.15 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AltPart1" "8094 TODO"
+			(at 184.15 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr" "Cliff"
+			(at 184.15 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "FCR7350R"
 			(at 184.15 21.59 0)
 			(hide yes)
 			(show_name no)
@@ -14406,6 +14781,28 @@
 				)
 			)
 		)
+		(property "Mfr" "Yageo"
+			(at 200.66 55.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "RC0603JR-0710KL"
+			(at 200.66 55.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7d6406ef-8493-4b00-8433-2105924aea9d")
 		)
@@ -14476,6 +14873,17 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x08, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 252.73 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr" "M3"
 			(at 252.73 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -14599,6 +15007,50 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 183.134 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AltMfr1" "Schützinger"
+			(at 183.134 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AltPart1" "8094 TODO"
+			(at 183.134 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr" "Cliff"
+			(at 183.134 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "FCR7350B"
 			(at 183.134 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -14762,7 +15214,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Kemet"
+		(property "Mfr" "TODO calc"
 			(at 49.53 127 0)
 			(hide yes)
 			(show_name no)
@@ -14773,7 +15225,7 @@
 				)
 			)
 		)
-		(property "Part" "C0603C180F8HACAUTO "
+		(property "Part" "TODO"
 			(at 49.53 127 0)
 			(hide yes)
 			(show_name no)
@@ -14886,7 +15338,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce2eca77-e00d-4070-83a5-146c4c669087")
@@ -15500,6 +15952,28 @@
 				)
 			)
 		)
+		(property "Mfr" "Yageo"
+			(at 80.01 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "CC0603KRX7R7BB104"
+			(at 80.01 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "db479955-d272-48c6-896d-bcdd84aed2f3")
 		)
@@ -15570,6 +16044,28 @@
 		)
 		(property "Description" "200Ω, 0603, 5%"
 			(at 241.3 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr" "Panasonic"
+			(at 241.3 49.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "ERJ-3EKF2000V"
+			(at 241.3 49.53 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
