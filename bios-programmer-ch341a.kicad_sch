@@ -5671,10 +5671,10 @@
 		)
 		(uuid "b19deae8-37df-45c9-bfdf-9c6818ac5ce0")
 	)
-	(text_box "If no sense wires are required, 8-pin IDC connecters can be soldered in instead of 10-pin. Start at pin 3 instead of 1, leaving the first two through-holes (nearest to the PCB's mounting holes) unpopulated.\nDo not populate J9."
+	(text_box "If no sense wires are required, 8-pin IDC connecters can be soldered in instead of 10-pin. Start at pin 3, leaving the first 2 through-holes (nearest to the PCB's mounting holes) unpopulated.\nDo not populate J9."
 		(exclude_from_sim no)
-		(at 187.706 71.4723 0)
-		(size 36.322 20.9837)
+		(at 189.23 70.8627 0)
+		(size 31.496 20.9837)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width -0.0001)
@@ -9458,7 +9458,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "1x06 0.1\" Headers"
 			(at 140.97 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -9549,7 +9549,51 @@
 				)
 			)
 		)
-		(property "Description" "12MHz"
+		(property "Description" "12MHz, 18pF load capacitance"
+			(at 43.18 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr" "Abracon"
+			(at 43.18 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "ABL-12.000MHZ-B2"
+			(at 43.18 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AltMfr1" "Abracon"
+			(at 43.18 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AltPart1" "ABL-12.000MHZ-N2X-T"
 			(at 43.18 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -9808,6 +9852,28 @@
 			)
 		)
 		(property "Description" "I2C Isolator, 2.5 kVrms, Bidirectional clock and data, SOIC-8"
+			(at 161.29 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr" "Analog Devices"
+			(at 161.29 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "ADUM1252ASA+"
 			(at 161.29 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -10319,7 +10385,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "2373cb1b-1483-4fb7-9457-8b8c2c162b4d")
 		(property "Reference" "H2"
@@ -10410,7 +10476,7 @@
 				)
 			)
 		)
-		(property "Value" "TODO"
+		(property "Value" "Blue"
 			(at 51.308 69.85 90)
 			(hide yes)
 			(show_name no)
@@ -10443,7 +10509,7 @@
 				)
 			)
 		)
-		(property "Description" "LED; Blue? YellowGreen? RED?"
+		(property "Description" "LED, Blue"
 			(at 53.34 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -10467,6 +10533,50 @@
 		)
 		(property "Label" "PWR"
 			(at 50.038 67.31 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AltMfr1" "Lite-On Inc"
+			(at 53.34 67.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AltPart1" "LTST-C170TBKT"
+			(at 53.34 67.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr" "Inolux"
+			(at 53.34 67.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "IN-S85AT5B"
+			(at 53.34 67.31 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10545,6 +10655,28 @@
 		)
 		(property "Description" "1KΩ, 0603, 5%"
 			(at 58.42 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr" "Royalohm"
+			(at 58.42 138.43 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "CQ03WAJ0102T5E"
+			(at 58.42 138.43 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11156,6 +11288,28 @@
 				)
 			)
 		)
+		(property "Mfr" "Royalohm"
+			(at 58.42 128.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "CQ03WAJ0102T5E"
+			(at 58.42 128.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "dcabbbff-bce2-4c6b-a585-0a22d53c371f")
 		)
@@ -11227,6 +11381,50 @@
 			)
 		)
 		(property "Description" "IDC 2x05 0.1\" connector"
+			(at 204.47 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AltMfr1" "Wurth Elektronik"
+			(at 204.47 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AltPart1" "61201021721"
+			(at 204.47 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr" "TE Connectivity"
+			(at 204.47 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "1761682-3"
 			(at 204.47 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -11537,6 +11735,50 @@
 				)
 			)
 		)
+		(property "Mfr" "Kingbright"
+			(at 247.65 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "APT2012SURCK"
+			(at 247.65 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AltMfr1" "Lite-On Inc"
+			(at 247.65 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AltPart1" "LTST-C171KRKT"
+			(at 247.65 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "97d869a4-fc3b-415e-b23d-409fb806a79c")
 		)
@@ -11708,6 +11950,28 @@
 		)
 		(property "Description" "4.7KΩ, 0603, <=1%"
 			(at 209.55 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr" "Susumu"
+			(at 209.55 55.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "RR0816P-4641-D-65H"
+			(at 209.55 55.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12055,6 +12319,50 @@
 			)
 		)
 		(property "Description" "IDC 2x05 0.1\" connector"
+			(at 204.47 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AltMfr1" "Wurth Elektronik"
+			(at 204.47 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AltPart1" "61201021721"
+			(at 204.47 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr" "TE Connectivity"
+			(at 204.47 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "1761682-3"
 			(at 204.47 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -12425,6 +12733,50 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 224.79 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr" "Kingbright"
+			(at 224.79 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "APT2012SURCK"
+			(at 224.79 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AltMfr1" "Lite-On Inc"
+			(at 224.79 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AltPart1" "LTST-C171KRKT"
 			(at 224.79 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -13155,7 +13507,7 @@
 				)
 			)
 		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
+		(property "Description" "Single Pole Single Throw (SPST) switch PTS636"
 			(at 63.5 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -13168,6 +13520,28 @@
 		)
 		(property "Label" "RESET"
 			(at 65.024 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr" "C&K"
+			(at 63.5 53.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "PTS636SKG25SMTR LFS"
+			(at 63.5 53.34 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13556,6 +13930,28 @@
 				)
 			)
 		)
+		(property "Mfr" "Susumu"
+			(at 209.55 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "RG1608P-562-D-T5"
+			(at 209.55 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7eb50f5e-7987-4d4f-b78a-9455fdd4ac69")
 		)
@@ -13703,6 +14099,28 @@
 		)
 		(property "Description" "1KΩ, 0603, 5%"
 			(at 215.9 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr" "Royalohm"
+			(at 215.9 27.94 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "CQ03WAJ0102T5E"
+			(at 215.9 27.94 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14130,7 +14548,7 @@
 				)
 			)
 		)
-		(property "Value" "18pF"
+		(property "Value" "22pF"
 			(at 36.83 129.286 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14162,7 +14580,7 @@
 				)
 			)
 		)
-		(property "Description" "low-ESR ceramic"
+		(property "Description" "C0G/NP0, <= 2%; procure 22p/27p"
 			(at 36.83 127 0)
 			(hide yes)
 			(show_name no)
@@ -14173,7 +14591,7 @@
 				)
 			)
 		)
-		(property "Mfr" "TODO calc"
+		(property "Mfr" "Kyocera / AVX"
 			(at 36.83 127 0)
 			(hide yes)
 			(show_name no)
@@ -14184,7 +14602,29 @@
 				)
 			)
 		)
-		(property "Part" "TODO"
+		(property "Part" "06035A270GAT2A"
+			(at 36.83 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AltMfr1" "Yageo"
+			(at 36.83 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AltPart1" "CC0603GRNPO9BN220"
 			(at 36.83 127 0)
 			(hide yes)
 			(show_name no)
@@ -14388,7 +14828,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
+		(property "Description" "Banana Jack, Red"
 			(at 184.15 21.59 0)
 			(hide yes)
 			(show_name no)
@@ -14410,7 +14850,7 @@
 				)
 			)
 		)
-		(property "AltPart1" "8094 TODO"
+		(property "AltPart1" "SWEB 8094 AU / SW"
 			(at 184.15 21.59 0)
 			(hide yes)
 			(show_name no)
@@ -14508,7 +14948,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Wire-to-board connector"
 			(at 204.47 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -14872,7 +15312,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x08, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "DIP ZIF-16 socket"
 			(at 252.73 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -14884,6 +15324,17 @@
 			)
 		)
 		(property "Mfr" "M3"
+			(at 252.73 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "216-3340-00-0602J"
 			(at 252.73 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -15006,7 +15457,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
+		(property "Description" "Banana Jack, Black"
 			(at 183.134 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -15028,7 +15479,7 @@
 				)
 			)
 		)
-		(property "AltPart1" "8094 TODO"
+		(property "AltPart1" "SWEB 8094 AU / RT"
 			(at 183.134 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -15171,7 +15622,7 @@
 				)
 			)
 		)
-		(property "Value" "18pF"
+		(property "Value" "22pF"
 			(at 49.53 129.286 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15203,7 +15654,7 @@
 				)
 			)
 		)
-		(property "Description" "low-ESR ceramic"
+		(property "Description" "C0G/NP0, <= 2%; procure 22p/27p"
 			(at 49.53 127 0)
 			(hide yes)
 			(show_name no)
@@ -15214,7 +15665,7 @@
 				)
 			)
 		)
-		(property "Mfr" "TODO calc"
+		(property "Mfr" "Kyocera / AVX"
 			(at 49.53 127 0)
 			(hide yes)
 			(show_name no)
@@ -15225,7 +15676,29 @@
 				)
 			)
 		)
-		(property "Part" "TODO"
+		(property "Part" "06035A270GAT2A"
+			(at 49.53 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AltMfr1" "Yageo"
+			(at 49.53 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AltPart1" "CC0603GRNPO9BN220"
 			(at 49.53 127 0)
 			(hide yes)
 			(show_name no)
@@ -15315,6 +15788,50 @@
 				)
 			)
 		)
+		(property "Mfr" "Murata"
+			(at 180.34 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "GRM033R71H102KA12D"
+			(at 180.34 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AltMfr1" "Samsung"
+			(at 180.34 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AltPart1" "CL10B102KB8NNNC"
+			(at 180.34 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7d574c93-91c4-4cfc-aad9-47ccbb6b6543")
 		)
@@ -15339,7 +15856,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files no)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ce2eca77-e00d-4070-83a5-146c4c669087")
 		(property "Reference" "H1"
@@ -15463,7 +15980,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "1x06 0.1\" Headers"
 			(at 119.38 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -15556,6 +16073,28 @@
 		)
 		(property "Description" "1KΩ, 0603, 5%"
 			(at 215.9 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr" "Royalohm"
+			(at 215.9 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "CQ03WAJ0102T5E"
+			(at 215.9 40.64 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
