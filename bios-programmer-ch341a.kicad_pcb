@@ -18895,7 +18895,7 @@
 	(gr_text "CS"
 		(locked yes)
 		(at 87.8 76.61 90)
-		(layer "F.SilkS")
+		(layer "F.SilkS" knockout)
 		(uuid "91cdc0ad-b104-47f3-bbe6-5aebd2959648")
 		(effects
 			(font
@@ -19486,7 +19486,7 @@
 	(gr_text "  CS"
 		(locked yes)
 		(at 71.35 40.5 270)
-		(layer "F.SilkS")
+		(layer "F.SilkS" knockout)
 		(uuid "e2849601-2d30-47f0-8182-a9f1da580a1c")
 		(effects
 			(font
@@ -30787,7 +30787,7 @@
 		(members "85481914-f368-47a3-b0ef-425498ff7bc0" "b0505ec9-581b-4274-8cca-ce5cc2b3ead1")
 	)
 	(group ""
-		(uuid "4fb395cf-0ea0-422a-9b5e-ca691a0b6219")
+		(uuid "4c85a9f6-014a-4750-aa84-ff89b78562b9")
 		(locked yes)
 		(members "085acfc6-b160-49c2-9a94-13bdea13fd2a" "1560137f-354c-4a15-b527-840145d77763"
 			"2cf6c451-4634-4bdd-9a24-7fc747e95e86" "2f98cc28-db4c-43af-a818-55da253f975e"
@@ -30821,7 +30821,7 @@
 		)
 	)
 	(group ""
-		(uuid "a4b3d127-b52f-4852-9321-28e116109dfc")
+		(uuid "93d9af08-3bb7-4f31-a20f-e08652fd4a49")
 		(locked yes)
 		(members "00db7280-52b0-4851-95a9-e7f95162a44f" "119c8ef3-3d2b-4815-8515-a69f0fcdecde"
 			"1d0546d8-7061-49b0-91b0-a4134c25854f" "364893be-2295-493f-83c5-db7b205d70c7"
