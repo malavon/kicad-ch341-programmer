@@ -62,8 +62,8 @@
       ],
       "drc_exclusions": [
         [
-          "track_dangling|71139598|74939598|5a4ad6a6-3519-43f3-9156-0a472d5cf339|00000000-0000-0000-0000-000000000000",
-          "kicad drc error"
+          "track_dangling|71272189|74772189|a1f2d82f-350d-478c-9c80-a8482371feab|00000000-0000-0000-0000-000000000000",
+          ""
         ]
       ],
       "meta": {
@@ -935,7 +935,7 @@
         "uuid": "a99a5965-7ad8-4ba1-a50b-0a8ec2909645"
       }
     ],
-    "used_designators": "U5-6,C11-13,J9",
+    "used_designators": "SW1,H1-2,#FLG1-3,Y1,U1-6,R1-22,Q1-4,D1-5,#PWR1-23,C1-13,J1-9",
     "variants": []
   },
   "sheets": [
@@ -944,7 +944,9 @@
       "bios-programmer-ch341a"
     ]
   ],
-  "text_variables": {},
+  "text_variables": {
+    "MFR": "PCB MFR"
+  },
   "tuning_profiles": {
     "meta": {
       "version": 0
