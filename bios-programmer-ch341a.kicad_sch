@@ -6178,7 +6178,7 @@
 		(uuid "88e736b6-d426-4256-8142-2d7ce9ff987d")
 	)
 	(no_connect
-		(at 248.92 172.72)
+		(at 255.27 80.01)
 		(uuid "93d2bd88-cace-4782-925a-7360f800df1f")
 	)
 	(no_connect
@@ -6190,7 +6190,7 @@
 		(uuid "a8ed57e0-d0c1-450a-91e7-c00ec36cef55")
 	)
 	(no_connect
-		(at 248.92 181.61)
+		(at 255.27 88.9)
 		(uuid "b8395db0-a60c-44fc-8efc-04f694310884")
 	)
 	(no_connect
@@ -10082,6 +10082,28 @@
 				)
 			)
 		)
+		(property "AltMfr1" "Analog Devices"
+			(at 161.29 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AltPart1" "ADUM1252ASA+T"
+			(at 161.29 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0ca4e27a-4ecc-4f02-a562-6813151e7d03")
 		)
@@ -10576,7 +10598,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 248.92 179.07 0)
+		(at 255.27 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10587,7 +10609,7 @@
 		(fields_autoplaced yes)
 		(uuid "2373cb1b-1483-4fb7-9457-8b8c2c162b4d")
 		(property "Reference" "H2"
-			(at 251.46 176.5299 0)
+			(at 257.81 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10598,7 +10620,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 251.46 179.0699 0)
+			(at 257.81 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10609,7 +10631,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO14580_Pad_TopBottom"
-			(at 248.92 179.07 0)
+			(at 255.27 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10620,7 +10642,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.92 179.07 0)
+			(at 255.27 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10631,7 +10653,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 248.92 179.07 0)
+			(at 255.27 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10874,6 +10896,28 @@
 			)
 		)
 		(property "Part" "CQ03WAJ0102T5E"
+			(at 58.42 138.43 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AltMfr1" "Bourns Inc"
+			(at 58.42 138.43 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AltPart1" "CR0603-JW-102ELF"
 			(at 58.42 138.43 90)
 			(hide yes)
 			(show_name no)
@@ -11586,6 +11630,28 @@
 				)
 			)
 		)
+		(property "AltMfr1" "Bourns Inc"
+			(at 58.42 128.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AltPart1" "CR0603-JW-102ELF"
+			(at 58.42 128.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "dcabbbff-bce2-4c6b-a585-0a22d53c371f")
 		)
@@ -11667,7 +11733,7 @@
 				)
 			)
 		)
-		(property "AltMfr1" "Wurth Elektronik"
+		(property "AltMfr1" "Adam Tech"
 			(at 220.98 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -11678,7 +11744,7 @@
 				)
 			)
 		)
-		(property "AltPart1" "61201021721"
+		(property "AltPart1" "BHR-10-HUA"
 			(at 220.98 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -11689,7 +11755,7 @@
 				)
 			)
 		)
-		(property "Mfr" "TE Connectivity"
+		(property "Mfr" "Wurth Elektronik"
 			(at 220.98 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -11700,7 +11766,7 @@
 				)
 			)
 		)
-		(property "Part" "1761682-3"
+		(property "Part" "61201021721"
 			(at 220.98 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -12246,7 +12312,29 @@
 				)
 			)
 		)
-		(property "Part" "RR0816P-4641-D-65H"
+		(property "Part" "RG1608P-472-D-T5"
+			(at 209.55 55.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AltMfr1" "Panasonic"
+			(at 209.55 55.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AltPart1" "ERA-3AEB472V"
 			(at 209.55 55.88 90)
 			(hide yes)
 			(show_name no)
@@ -12605,7 +12693,7 @@
 				)
 			)
 		)
-		(property "AltMfr1" "Wurth Elektronik"
+		(property "AltMfr1" "Adam Tech"
 			(at 220.98 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -12616,7 +12704,7 @@
 				)
 			)
 		)
-		(property "AltPart1" "61201021721"
+		(property "AltPart1" "BHR-10-HUA"
 			(at 220.98 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -12627,7 +12715,7 @@
 				)
 			)
 		)
-		(property "Mfr" "TE Connectivity"
+		(property "Mfr" "Wurth Elektronik"
 			(at 220.98 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -12638,7 +12726,7 @@
 				)
 			)
 		)
-		(property "Part" "1761682-3"
+		(property "Part" "61201021721"
 			(at 220.98 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -13629,6 +13717,28 @@
 				)
 			)
 		)
+		(property "AltMfr1" "Bourns Inc"
+			(at 199.39 132.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AltPart1" "CR0603-JW-102ELF"
+			(at 199.39 132.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a5cff592-8198-419c-a268-e87d58c89386")
 		)
@@ -13807,6 +13917,28 @@
 				)
 			)
 		)
+		(property "AltMfr1" "Bourns Inc"
+			(at 238.76 128.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AltPart1" "CR0603-JW-102ELF"
+			(at 238.76 128.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e2eff4e5-63f4-4db0-bc6f-269b10c43dd0")
 		)
@@ -13901,7 +14033,7 @@
 				)
 			)
 		)
-		(property "Part" "TL432DBZ"
+		(property "Part" "TL432LIBCDBZ"
 			(at 215.9 49.53 90)
 			(hide yes)
 			(show_name no)
@@ -14430,6 +14562,28 @@
 				)
 			)
 		)
+		(property "AltMfr1" "Yageo"
+			(at 209.55 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AltPart1" "RT0603DRE075K6L"
+			(at 209.55 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7eb50f5e-7987-4d4f-b78a-9455fdd4ac69")
 		)
@@ -14521,6 +14675,28 @@
 			)
 		)
 		(property "Part" "CQ03WAJ0102T5E"
+			(at 238.76 154.94 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AltMfr1" "Bourns Inc"
+			(at 238.76 154.94 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AltPart1" "CR0603-JW-102ELF"
 			(at 238.76 154.94 90)
 			(hide yes)
 			(show_name no)
@@ -14709,6 +14885,28 @@
 				)
 			)
 		)
+		(property "AltMfr1" "Bourns Inc"
+			(at 215.9 27.94 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AltPart1" "CR0603-JW-102ELF"
+			(at 215.9 27.94 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a0488f72-1a4a-4667-9fef-9e9862bcdbc2")
 		)
@@ -14858,7 +15056,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 72.39 84.7852 0)
 			(hide yes)
 			(show_name no)
@@ -14891,7 +15089,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Taiyo Yuden"
+		(property "Mfr" "Samsung Electro-Mechanics"
 			(at 76.2 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -14902,7 +15100,29 @@
 				)
 			)
 		)
-		(property "Part" "JMK212B7106KG-T"
+		(property "Part" "CL21A106KOQNNNF"
+			(at 76.2 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AltMfr1" "Murata Electronics"
+			(at 76.2 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AltPart1" "GRM21BR71A106KA73L"
 			(at 76.2 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -15069,7 +15289,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Murata"
+		(property "Mfr" "YAGEO"
 			(at 142.24 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -15080,7 +15300,7 @@
 				)
 			)
 		)
-		(property "Part" "GRM033R71H102KA12D"
+		(property "Part" "AC0603KRX7R0BB102"
 			(at 142.24 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -15091,7 +15311,7 @@
 				)
 			)
 		)
-		(property "AltMfr1" "Samsung"
+		(property "AltMfr1" "KYOCERA AVX"
 			(at 142.24 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -15102,7 +15322,7 @@
 				)
 			)
 		)
-		(property "AltPart1" "CL10B102KB8NNNC"
+		(property "AltPart1" "06035C102K4Z4A"
 			(at 142.24 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -15204,6 +15424,28 @@
 			)
 		)
 		(property "Part" "CQ03WAJ0102T5E"
+			(at 238.76 130.81 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AltMfr1" "Bourns Inc"
+			(at 238.76 130.81 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AltPart1" "CR0603-JW-102ELF"
 			(at 238.76 130.81 90)
 			(hide yes)
 			(show_name no)
@@ -15405,7 +15647,7 @@
 				)
 			)
 		)
-		(property "Part" "06035A270GAT2A"
+		(property "Part" "KGM15ACG1H270GT"
 			(at 36.83 127 0)
 			(hide yes)
 			(show_name no)
@@ -15762,7 +16004,7 @@
 				)
 			)
 		)
-		(property "AltMfr1" "Molex"
+		(property "AltMfr1" "TE Connectivity"
 			(at 217.17 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -15773,7 +16015,7 @@
 				)
 			)
 		)
-		(property "AltPart1" "39773-0002"
+		(property "AltPart1" "282834-2"
 			(at 217.17 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -15784,7 +16026,7 @@
 				)
 			)
 		)
-		(property "Mfr" "TE Connectivity"
+		(property "Mfr" "GCT"
 			(at 217.17 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -15795,7 +16037,7 @@
 				)
 			)
 		)
-		(property "Part" "282834-2"
+		(property "Part" "TBC05-02-1-G-G"
 			(at 217.17 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -16523,7 +16765,7 @@
 				)
 			)
 		)
-		(property "Part" "06035A270GAT2A"
+		(property "Part" "KGM15ACG1H270GT"
 			(at 49.53 127 0)
 			(hide yes)
 			(show_name no)
@@ -16657,6 +16899,28 @@
 				)
 			)
 		)
+		(property "AltMfr1" "Bourns Inc"
+			(at 238.76 152.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AltPart1" "CR0603-JW-102ELF"
+			(at 238.76 152.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7a88355c-398d-4243-a22b-760885aa4669")
 		)
@@ -16736,7 +17000,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Murata"
+		(property "Mfr" "YAGEO"
 			(at 180.34 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -16747,7 +17011,7 @@
 				)
 			)
 		)
-		(property "Part" "GRM033R71H102KA12D"
+		(property "Part" "AC0603KRX7R0BB102"
 			(at 180.34 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -16758,7 +17022,7 @@
 				)
 			)
 		)
-		(property "AltMfr1" "Samsung"
+		(property "AltMfr1" "KYOCERA AVX"
 			(at 180.34 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -16769,7 +17033,7 @@
 				)
 			)
 		)
-		(property "AltPart1" "CL10B102KB8NNNC"
+		(property "AltPart1" "06035C102K4Z4A"
 			(at 180.34 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -16797,7 +17061,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 248.92 170.18 0)
+		(at 255.27 77.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16808,7 +17072,7 @@
 		(fields_autoplaced yes)
 		(uuid "ce2eca77-e00d-4070-83a5-146c4c669087")
 		(property "Reference" "H1"
-			(at 251.46 167.6399 0)
+			(at 257.81 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16819,7 +17083,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 251.46 170.1799 0)
+			(at 257.81 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16830,7 +17094,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO14580_Pad_TopBottom"
-			(at 248.92 170.18 0)
+			(at 255.27 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16841,7 +17105,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.92 170.18 0)
+			(at 255.27 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16852,7 +17116,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 248.92 170.18 0)
+			(at 255.27 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17052,6 +17316,28 @@
 				)
 			)
 		)
+		(property "AltMfr1" "Bourns Inc"
+			(at 215.9 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AltPart1" "CR0603-JW-102ELF"
+			(at 215.9 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "23edcb97-577c-45e1-a889-5ea987e918fd")
 		)
@@ -17143,6 +17429,28 @@
 			)
 		)
 		(property "Part" "CQ03WAJ0102T5E"
+			(at 205.74 123.19 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AltMfr1" "Bourns Inc"
+			(at 205.74 123.19 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AltPart1" "CR0603-JW-102ELF"
 			(at 205.74 123.19 90)
 			(hide yes)
 			(show_name no)
@@ -17808,6 +18116,28 @@
 			)
 		)
 		(property "Part" "CQ03WAJ0102T5E"
+			(at 205.74 125.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AltMfr1" "Bourns Inc"
+			(at 205.74 125.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AltPart1" "CR0603-JW-102ELF"
 			(at 205.74 125.73 90)
 			(hide yes)
 			(show_name no)
