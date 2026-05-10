@@ -10863,7 +10863,7 @@
 				)
 			)
 		)
-		(property "AltMfr1" "Lite-On Inc"
+		(property "AltMfr1" "Inolux"
 			(at 53.34 67.31 90)
 			(hide yes)
 			(show_name no)
@@ -10874,7 +10874,7 @@
 				)
 			)
 		)
-		(property "AltPart1" "LTST-C170TBKT"
+		(property "AltPart1" "IN-S63AT5B"
 			(at 53.34 67.31 90)
 			(hide yes)
 			(show_name no)
@@ -10885,7 +10885,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Inolux"
+		(property "Mfr" "Liteon"
 			(at 53.34 67.31 90)
 			(hide yes)
 			(show_name no)
@@ -10896,7 +10896,7 @@
 				)
 			)
 		)
-		(property "Part" "IN-S85AT5B"
+		(property "Part" "LTST-C194TBKT"
 			(at 53.34 67.31 90)
 			(hide yes)
 			(show_name no)
@@ -15973,28 +15973,6 @@
 			)
 		)
 		(property "Description" "Wire-to-board connector, SENSE wire connection"
-			(at 214.63 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "AltMfr1" "TE Connectivity"
-			(at 214.63 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "AltPart1" "282834-2"
 			(at 214.63 91.44 0)
 			(hide yes)
 			(show_name no)
